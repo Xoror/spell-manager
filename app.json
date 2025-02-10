@@ -1,15 +1,22 @@
 {
   "expo": {
+    "backgroundColor": "#000000",
     "name": "spell-manager",
     "slug": "spell-manager",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
+    },
+    "androidStatusBar": {
+      //"barStyle": "light-content",
+      //"backgroundColor": "#3a81fd",
+      "hidden": false,
+      "translucent": false
     },
     "android": {
       "adaptiveIcon": {
