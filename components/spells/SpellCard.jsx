@@ -1,17 +1,18 @@
-import React from "react";
+import React from "react"
 
-import "./SpellCard.scss"
-
-//import { View, Text } from "react-native";
-import { StyleSheet } from "react-native";
-import { ThemedText as Text } from "../ThemedText";
-import { ThemedView as View } from "../ThemedView";
+import { StyleSheet } from "react-native"
+import ThemedText from "../basic/ThemedText"
+import ThemedView, { default as View } from "../basic/ThemedView"
 import Row from "../grid/Row"
 import Col from "../grid/Col"
 
 const styles = StyleSheet.create({
     spellcard: {
-        padding: 8
+        paddingInline: 12,
+    },
+    row: {
+        borderBottomColor: "white",
+        borderBottomWidth: 1
     }
 })
 
@@ -78,71 +79,77 @@ export const SpellCard = (props) => {
         }
     }
     return(
-        <View style={styles.spellcard}>
-            {false ? <Text className="h4">{data.name}</Text> : null}
-            <Text className="h6">Classes: {classes} </Text>
-            <Row className="spellcard-row">
+        <ThemedView style={{...styles.spellcard, ...props.style }}>
+            <Row style={styles.row}>
+                {false ? <ThemedText className="h4">{data.name} </ThemedText> : null}
+                <ThemedText type="defaultSemiBold">Classes: {classes}  </ThemedText>
+            </Row>
+            <Row style={styles.row}>
                 <Col>
-                    <Text>
+                    <ThemedText type="defaultSemiBold">
                         Casting Time: 
-                    </Text>
+                     </ThemedText>
                 </Col>
                 <Col md="auto">
-                    <Text>
-                        {data.castingTime} {data.ritual ? " or Ritual": ""}
-                    </Text>
+                    <ThemedText>
+                        {data.castingTime}{data.ritual ? " or Ritual": ""}
+                     </ThemedText>
                 </Col>
             </Row>
-            <Row className="spellcard-row">
+            <Row style={styles.row}>
                 <Col>
-                    <Text>
+                    <ThemedText type="defaultSemiBold">
                         Range: 
-                    </Text>
+                     </ThemedText>
                 </Col>
                 <Col md="auto">
-                    <Text>
+                    <ThemedText>
                         {data.range}
-                    </Text>
+                     </ThemedText>
                 </Col>
             </Row>
-            <Row className="spellcard-row">
+            <Row style={styles.row}>
                 <Col>
-                    <Text>
+                    <ThemedText type="defaultSemiBold">
                         Components: 
-                    </Text>
+                     </ThemedText>
                 </Col>
                 <Col md="auto">
-                    <Text>
+                    <ThemedText>
                         {components}
-                    </Text>
+                     </ThemedText>
                 </Col>
             </Row>
-            <Row className="spellcard-row">
+            <Row style={styles.row}>
                 <Col>
-                    <Text>
+                    <ThemedText type="defaultSemiBold">
                         Duration:
-                    </Text>
+                     </ThemedText>
                 </Col>
                 <Col md="auto">
-                    <Text>
-                        {data.duration[0]} {data.duration[1] ? "(Concentration)" : null}
-                    </Text>
+                    <ThemedText>
+                        {data.duration[0]}{data.duration[1] ? " (Concentration)" : null}
+                     </ThemedText>
                 </Col>
             </Row>
-            <Row>
-                <Col className="spellcard-section overflow">
+            <Row style={{...styles.row, flex: -1}}>
+                <Col scroll={true} >
                     {data.description[0].map((desc, index) => (
-                        <Text key={`${data.name}-spellcard-description-${index}`} style={{paddingRight:"0.5em", textAlign:"justify"}}>{desc}</Text>
+                        <ThemedText key={`${data.name}-spellcard-description-${index}`} style={{textAlign:"justify"}}>
+                            {index === 0 ? <ThemedText type="defaultSemiBold">Description:  </ThemedText>: null}{desc}
+                         </ThemedText>
                     ))}
-                    <Text style={{paddingRight:"0.5em", textAlign:"justify"}}>
-                        <Text className="bold">At higher levels: </Text> {data.description[1]}
-                    </Text>
                 </Col>
             </Row>
-            <Row>
-                <Text className="spellcard-footer">{data.type} level {data.school} spell</Text>
+            <Row style={styles.row}>
+                <ThemedText style={{textAlign:"justify", width:"100%"}}>
+                    <ThemedText type="defaultSemiBold">At higher levels: </ThemedText> {data.description[1]}
+                 </ThemedText>
             </Row>
-        </View>
+            <Row style={styles.row}>
+                <ThemedText className="spellcard-footer">{data.type} level {data.school} spell </ThemedText>
+            </Row>
+         </ThemedView>
     )
 }
 

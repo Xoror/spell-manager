@@ -1,17 +1,18 @@
 
-import { StyleSheet } from "react-native";
-import { ThemedView as View } from "../ThemedView";
+import { StyleSheet } from "react-native"
+import ThemedView from "../basic/ThemedView"
 
 const styles = StyleSheet.create({
     row: {
         flexDirection: "row",
-        justifyContent: "space-between"
+        justifyContent: "space-between",
+        paddingBlock: 4
     }
 })
 
-const Row = ({children, style, ...restProps}) => {
+const Row = ({children, style, ...restopsProps}) => {
     return (
-        <View style={{...style, ...styles.row}}>{children}</View>
+        <ThemedView style={{...style, ...styles.row}} {...restopsProps} >{children}</ThemedView>
     )
 }
 

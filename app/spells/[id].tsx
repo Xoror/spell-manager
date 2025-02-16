@@ -1,47 +1,41 @@
-import React from "react";
-import { StyleSheet } from "react-native";
-import { useLocalSearchParams, Stack } from "expo-router";
+import React from "react"
+import { StyleSheet, useWindowDimensions } from "react-native"
+import { useLocalSearchParams, Stack } from "expo-router"
 
-import { ThemedView } from "@/components/ThemedView";
-import { ThemedText } from "@/components/ThemedText";
-import {SpellCard} from "../../components/spells/SpellCard"
-import SpellCardSkeleton from "@/components/skeletons/SpellCardSkeleton";
+import ThemedView from "@/components/basic/ThemedView"
+import {SpellCard} from "@/components/spells/SpellCard"
+import SpellCardSkeleton from "@/components/skeletons/SpellCardSkeleton"
 
 import spells from "../../constants/spellsSRD.json"
 import { parseSpellAPIResponse } from "../../utils/ParseResponseFunctions"
+import { useHeaderHeight } from '@react-navigation/elements'
+
+//import Dimensions from 'Dimensions'
+//const {width, height} = Dimensions.get('window')
 
 const styles = StyleSheet.create({
-    screnn: {
-        width: "100%",              
-        minWidth: "100%"
-    },
-    header: {
-        width: "100%"
+    screen: {
+        flex: 1
     }
 })
 
 const SpellById = () => {
-    const { id, name } = useLocalSearchParams();
-    console.log(id)
+    const { id } = useLocalSearchParams()
+    const headerHeight = useHeaderHeight()
+    const {height: windowHeight} = useWindowDimensions()
+    //console.log(windowHeight, headerHeight)
+
     return (
-        <>
-            <Stack.Screen options={{
-                title: (name as string)
-            }} />
-            <ThemedView>
-                <ThemedText>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                </ThemedText>
-            </ThemedView>
-            <ThemedView style={styles.screnn}>
-                {false?
-                    <SpellCardSkeleton />
-                    :
-                    <SpellCard data={parseSpellAPIResponse(spells.find(spell => spell.index === id))} />
-                }
-            </ThemedView>
-        </>
+        <ThemedView style={{...styles.screen}}>
+            {false?
+                <SpellCardSkeleton />
+                :
+                <SpellCard 
+                    style={{height: windowHeight - headerHeight}}
+                    data={parseSpellAPIResponse(spells.find(spell => spell.id.toString() === id))} 
+                />
+            }
+        </ThemedView>
     )
 }
 

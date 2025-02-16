@@ -1,8 +1,8 @@
-import React from "react";
-import { StyleSheet } from "react-native";
+import React from "react"
+import { StyleSheet } from "react-native"
 
-import { ThemedView } from "@/components/ThemedView";
-import { ThemedText } from "@/components/ThemedText";
+import ThemedView from "@/components/basic/ThemedView"
+import ThemedText  from "@/components/basic/ThemedText"
 
 const styles = StyleSheet.create({
     screnn: {

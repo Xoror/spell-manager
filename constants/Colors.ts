@@ -1,19 +1,43 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
-
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+const tintColorLight = '#0a7ea4'
+const tintColorDark = '#fff'
 
 export const Colors = {
   light: {
     text: '#11181C',
-    background: '#fff',
+    background: '#c8c0be',
     tint: tintColorLight,
     icon: '#687076',
     tabIconDefault: '#687076',
     tabIconSelected: tintColorLight,
+    tabBarInactiveBackground: "#fff",
+    
+    inputBackground: "#383a3b",
+    inputPlaceholder: '#353b3f',
+    inputColor: "black",
+
+    primary: '#4995d5',
+    secondary: '#6c757d',
+    success: '#1fad61',
+    info: '#9184bd',
+    warning: '#e0bc29',
+    danger: '#fc5f5f',
+    dark: '#f8f9fa',
+    light: '#212529',
+
+    "red-accent-low": "#ffc8be",
+	"red-accent": "#a60a00",
+    "red-accent-middle": "#a60a00",
+	"red-accent-high": "#640300",
+	"red-white": "#1d1715",
+	"red-gray-1": "#302321",
+	"red-gray-2": "#423432",
+	"red-gray-3": "#635451",
+	"red-gray-4": "#978784",
+	"red-gray-5": "#c8c0be",
+	"red-gray-6": "#f3ecea",
+	"red-gray-7": "#f9f5f5",
+	"red-black": "#c8c0be",
+    "red-black2": "#fff",
   },
   dark: {
     text: '#ECEDEE',
@@ -22,5 +46,33 @@ export const Colors = {
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
     tabIconSelected: tintColorDark,
+    tabBarInactiveBackground: "#151718",
+
+    inputBackground: "#2f3132",
+    inputPlaceholder: "#898989",
+    inputColor: "black",
+
+    primary: '#4995d5',
+    secondary: '#6c757d',
+    success: '#1fad61',
+    info: '#9184bd',
+    warning: '#e0bc29',
+    danger: '#fc5f5f',
+    light: '#f8f9fa',
+    dark: '#212529',
+
+	"red-accent-low": "#460b05",
+	"red-accent": "#c60e00",
+    "red-accent-middle": "#fc5f5f",
+	"red-accent-high": "#feb3a6",
+	"red-white": "#ffffff",
+	"red-gray-1": "#f3ecea",
+	"red-gray-2": "#cfc6c4",
+	"red-gray-3": "#b0a09d",
+	"red-gray-4": "#635451",
+	"red-gray-5": "#423432",
+	"red-gray-6": "#302321",
+	"red-black": "#1d1715",	
+    "red-black2": "#1d1715",
   },
-};
+}

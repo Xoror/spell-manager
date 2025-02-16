@@ -62,7 +62,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/acid-arrow"
+		"url": "/api/spells/acid-arrow",
+		"id": 0
 	},
 	{
 		"higher_level": [],
@@ -127,7 +128,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/acid-splash"
+		"url": "/api/spells/acid-splash",
+		"id": 1
 	},
 	{
 		"index": "aid",
@@ -184,7 +186,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/aid"
+		"url": "/api/spells/aid",
+		"id": 2
 	},
 	{
 		"higher_level": [],
@@ -235,7 +238,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/alarm"
+		"url": "/api/spells/alarm",
+		"id": 3
 	},
 	{
 		"higher_level": [],
@@ -244,7 +248,7 @@
 		"desc": [
 			"You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.",
 			"***Aquatic Adaptation.*** You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.",
-			"***Change Appearance.*** You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.",
+			"***Change Appearance.*** You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.",
 			"***Natural Weapons.*** You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it."
 		],
 		"range": "Self",
@@ -281,7 +285,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/alter-self"
+		"url": "/api/spells/alter-self",
+		"id": 4
 	},
 	{
 		"higher_level": [],
@@ -338,7 +343,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/animal-friendship"
+		"url": "/api/spells/animal-friendship",
+		"id": 5
 	},
 	{
 		"index": "animal-messenger",
@@ -391,7 +397,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/animal-messenger"
+		"url": "/api/spells/animal-messenger",
+		"id": 6
 	},
 	{
 		"higher_level": [],
@@ -425,7 +432,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/animal-shapes"
+		"url": "/api/spells/animal-shapes",
+		"id": 7
 	},
 	{
 		"index": "animate-dead",
@@ -474,7 +482,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/animate-dead"
+		"url": "/api/spells/animate-dead",
+		"id": 8
 	},
 	{
 		"index": "animate-objects",
@@ -490,7 +499,7 @@
 			"| Medium | 40 | 13 | +5 to hit, 2d6 + 1 damage | 10 | 12 |",
 			"| Large | 50 | 10 | +6 to hit, 2d10 + 2 damage | 14 | 10 |",
 			"| Huge | 80 | 10 | +8 to hit, 2d12 + 4 damage | 18 | 6 |",
-			"An animated object is a construct with AC, hit points, attacks, Strength, and Dexterity determined by its size. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.",
+			"An animated object is a construct with AC, hit points, attacks, Strength, and Dexterity determined by its size. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet if the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.",
 			"If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and bludgeoning damage determined by its size. The GM might rule that a specific object inflicts slashing or piercing damage based on its form."
 		],
 		"higher_level": [
@@ -529,7 +538,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/animate-objects"
+		"url": "/api/spells/animate-objects",
+		"id": 9
 	},
 	{
 		"higher_level": [],
@@ -567,7 +577,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/antilife-shell"
+		"url": "/api/spells/antilife-shell",
+		"id": 10
 	},
 	{
 		"higher_level": [],
@@ -619,7 +630,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/antimagic-field"
+		"url": "/api/spells/antimagic-field",
+		"id": 11
 	},
 	{
 		"higher_level": [],
@@ -667,7 +679,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/antipathy-sympathy"
+		"url": "/api/spells/antipathy-sympathy",
+		"id": 12
 	},
 	{
 		"higher_level": [],
@@ -712,7 +725,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/arcane-eye"
+		"url": "/api/spells/arcane-eye",
+		"id": 13
 	},
 	{
 		"index": "arcane-hand",
@@ -754,7 +768,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/arcane-hand"
+		"url": "/api/spells/arcane-hand",
+		"id": 14
 	},
 	{
 		"higher_level": [],
@@ -762,7 +777,7 @@
 		"name": "Arcane Lock",
 		"desc": [
 			"You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes.",
-			"While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10."
+			"While affected by this spell, the object is more difficult to break or force open the DC to break it or pick any locks on it increases by 10."
 		],
 		"range": "Touch",
 		"components": [
@@ -795,7 +810,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/arcane-lock"
+		"url": "/api/spells/arcane-lock",
+		"id": 15
 	},
 	{
 		"higher_level": [],
@@ -846,7 +862,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/arcane-sword"
+		"url": "/api/spells/arcane-sword",
+		"id": 16
 	},
 	{
 		"higher_level": [],
@@ -889,14 +906,15 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/arcanists-magic-aura"
+		"url": "/api/spells/arcanists-magic-aura",
+		"id": 17
 	},
 	{
 		"higher_level": [],
 		"index": "astral-projection",
 		"name": "Astral Projection",
 		"desc": [
-			"You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell fails and the casting is wasted if you are already on that plane). The material body you leave behind is unconscious and in a state of suspended animation; it doesn't need food or air and doesn't age.",
+			"You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell fails and the casting is wasted if you are already on that plane). The material body you leave behind is unconscious and in a state of suspended animation it doesn't need food or air and doesn't age.",
 			"Your astral body resembles your mortal form in almost every way, replicating your game statistics and possessions. The principal difference is the addition of a silvery cord that extends from between your shoulder blades and trails behind you, fading to invisibility after 1 foot. This cord is your tether to your material body. As long as the tether remains intact, you can find your way home. If the cord is cut--something that can happen only when an effect specifically states that it does--your soul and body are separated, killing you instantly.",
 			"Your astral form can freely travel through the Astral Plane and can pass through portals there leading to any other plane. If you enter a new plane or return to the plane you were on when casting this spell, your body and possessions are transported along the silver cord, allowing you to re-enter your body as you enter the new plane. Your astral form is a separate incarnation. Any damage or other effects that apply to it have no effect on your physical body, nor do they persist when you return to it.",
 			"The spell ends for you and your companions when you use your action to dismiss it. When the spell ends, the affected creature returns to its physical body, and it awakens.",
@@ -938,7 +956,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/astral-projection"
+		"url": "/api/spells/astral-projection",
+		"id": 18
 	},
 	{
 		"higher_level": [],
@@ -984,7 +1003,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/augury"
+		"url": "/api/spells/augury",
+		"id": 19
 	},
 	{
 		"higher_level": [],
@@ -1024,7 +1044,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/awaken"
+		"url": "/api/spells/awaken",
+		"id": 20
 	},
 	{
 		"index": "bane",
@@ -1079,7 +1100,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/bane"
+		"url": "/api/spells/bane",
+		"id": 21
 	},
 	{
 		"index": "banishment",
@@ -1145,7 +1167,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/banishment"
+		"url": "/api/spells/banishment",
+		"id": 22
 	},
 	{
 		"higher_level": [],
@@ -1195,7 +1218,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/barkskin"
+		"url": "/api/spells/barkskin",
+		"id": 23
 	},
 	{
 		"higher_level": [],
@@ -1243,7 +1267,8 @@
 				"url": "/api/subclasses/devotion"
 			}
 		],
-		"url": "/api/spells/beacon-of-hope"
+		"url": "/api/spells/beacon-of-hope",
+		"id": 24
 	},
 	{
 		"index": "bestow-curse",
@@ -1307,7 +1332,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/bestow-curse"
+		"url": "/api/spells/bestow-curse",
+		"id": 25
 	},
 	{
 		"higher_level": [],
@@ -1366,7 +1392,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/black-tentacles"
+		"url": "/api/spells/black-tentacles",
+		"id": 26
 	},
 	{
 		"higher_level": [],
@@ -1421,7 +1448,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/blade-barrier"
+		"url": "/api/spells/blade-barrier",
+		"id": 27
 	},
 	{
 		"index": "bless",
@@ -1473,7 +1501,8 @@
 				"url": "/api/subclasses/life"
 			}
 		],
-		"url": "/api/spells/bless"
+		"url": "/api/spells/bless",
+		"id": 28
 	},
 	{
 		"index": "blight",
@@ -1481,7 +1510,7 @@
 		"desc": [
 			"Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. The spell has no effect on undead or constructs.",
 			"If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.",
-			"If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw; it simply withers and dies."
+			"If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw it simply withers and dies."
 		],
 		"higher_level": [
 			"When you cast this spell using a spell slot of 5th level of higher, the damage increases by 1d8 for each slot level above 4th."
@@ -1553,7 +1582,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/blight"
+		"url": "/api/spells/blight",
+		"id": 29
 	},
 	{
 		"index": "blindness-deafness",
@@ -1620,7 +1650,8 @@
 				"url": "/api/subclasses/fiend"
 			}
 		],
-		"url": "/api/spells/blindness-deafness"
+		"url": "/api/spells/blindness-deafness",
+		"id": 30
 	},
 	{
 		"higher_level": [],
@@ -1664,7 +1695,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/blink"
+		"url": "/api/spells/blink",
+		"id": 31
 	},
 	{
 		"higher_level": [],
@@ -1711,7 +1743,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/blur"
+		"url": "/api/spells/blur",
+		"id": 32
 	},
 	{
 		"index": "branding-smite",
@@ -1761,7 +1794,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/branding-smite"
+		"url": "/api/spells/branding-smite",
+		"id": 33
 	},
 	{
 		"index": "burning-hands",
@@ -1842,7 +1876,8 @@
 				"url": "/api/subclasses/fiend"
 			}
 		],
-		"url": "/api/spells/burning-hands"
+		"url": "/api/spells/burning-hands",
+		"id": 34
 	},
 	{
 		"index": "call-lightning",
@@ -1909,14 +1944,15 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/call-lightning"
+		"url": "/api/spells/call-lightning",
+		"id": 35
 	},
 	{
 		"higher_level": [],
 		"index": "calm-emotions",
 		"name": "Calm Emotions",
 		"desc": [
-			"You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.",
+			"You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a charisma saving throw a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.",
 			"Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the GM rules otherwise."
 		],
 		"range": "60 feet",
@@ -1965,7 +2001,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/calm-emotions"
+		"url": "/api/spells/calm-emotions",
+		"id": 36
 	},
 	{
 		"index": "chain-lightning",
@@ -1983,7 +2020,7 @@
 			"S",
 			"M"
 		],
-		"material": "A bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins.",
+		"material": "A bit of fur a piece of amber, glass, or a crystal rod and three silver pins.",
 		"ritual": false,
 		"duration": "Instantaneous",
 		"concentration": false,
@@ -2025,7 +2062,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/chain-lightning"
+		"url": "/api/spells/chain-lightning",
+		"id": 37
 	},
 	{
 		"index": "charm-person",
@@ -2093,7 +2131,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/charm-person"
+		"url": "/api/spells/charm-person",
+		"id": 38
 	},
 	{
 		"higher_level": [],
@@ -2157,7 +2196,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/chill-touch"
+		"url": "/api/spells/chill-touch",
+		"id": 39
 	},
 	{
 		"index": "circle-of-death",
@@ -2228,7 +2268,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/circle-of-death"
+		"url": "/api/spells/circle-of-death",
+		"id": 40
 	},
 	{
 		"higher_level": [],
@@ -2285,14 +2326,15 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/clairvoyance"
+		"url": "/api/spells/clairvoyance",
+		"id": 41
 	},
 	{
 		"higher_level": [],
 		"index": "clone",
 		"name": "Clone",
 		"desc": [
-			"This spell grows an inert duplicate of a living creature as a safeguard against death. This clone forms inside a sealed vessel and grows to full size and maturity after 120 days; you can also choose to have the clone be a younger version of the same creature. It remains inert and endures indefinitely, as long as its vessel remains undisturbed.",
+			"This spell grows an inert duplicate of a living creature as a safeguard against death. This clone forms inside a sealed vessel and grows to full size and maturity after 120 days you can also choose to have the clone be a younger version of the same creature. It remains inert and endures indefinitely, as long as its vessel remains undisturbed.",
 			"At any time after the clone matures, if the original creature dies, its soul transfers to the clone, provided that the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the original's equipment. The original creature's physical remains, if they still exist, become inert and can't thereafter be restored to life, since the creature's soul is elsewhere."
 		],
 		"range": "Touch",
@@ -2320,7 +2362,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/clone"
+		"url": "/api/spells/clone",
+		"id": 42
 	},
 	{
 		"index": "cloudkill",
@@ -2394,13 +2437,14 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/cloudkill"
+		"url": "/api/spells/cloudkill",
+		"id": 43
 	},
 	{
 		"index": "color-spray",
 		"name": "Color Spray",
 		"desc": [
-			"A dazzling array of flashing, colored light springs from your hand. Roll 6d10; the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can't see).",
+			"A dazzling array of flashing, colored light springs from your hand. Roll 6d10 the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can't see).",
 			"Starting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the spell ends. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected."
 		],
 		"higher_level": [
@@ -2446,7 +2490,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/color-spray"
+		"url": "/api/spells/color-spray",
+		"id": 44
 	},
 	{
 		"index": "command",
@@ -2509,7 +2554,8 @@
 				"url": "/api/subclasses/fiend"
 			}
 		],
-		"url": "/api/spells/command"
+		"url": "/api/spells/command",
+		"id": 45
 	},
 	{
 		"higher_level": [],
@@ -2551,7 +2597,8 @@
 				"url": "/api/subclasses/devotion"
 			}
 		],
-		"url": "/api/spells/commune"
+		"url": "/api/spells/commune",
+		"id": 46
 	},
 	{
 		"higher_level": [],
@@ -2601,7 +2648,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/commune-with-nature"
+		"url": "/api/spells/commune-with-nature",
+		"id": 47
 	},
 	{
 		"higher_level": [],
@@ -2657,7 +2705,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/comprehend-languages"
+		"url": "/api/spells/comprehend-languages",
+		"id": 48
 	},
 	{
 		"higher_level": [],
@@ -2698,7 +2747,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/compulsion"
+		"url": "/api/spells/compulsion",
+		"id": 49
 	},
 	{
 		"index": "cone-of-cold",
@@ -2773,7 +2823,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/cone-of-cold"
+		"url": "/api/spells/cone-of-cold",
+		"id": 50
 	},
 	{
 		"index": "confusion",
@@ -2844,7 +2895,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/confusion"
+		"url": "/api/spells/confusion",
+		"id": 51
 	},
 	{
 		"index": "conjure-animals",
@@ -2896,7 +2948,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/conjure-animals"
+		"url": "/api/spells/conjure-animals",
+		"id": 52
 	},
 	{
 		"index": "conjure-celestial",
@@ -2932,7 +2985,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/conjure-celestial"
+		"url": "/api/spells/conjure-celestial",
+		"id": 53
 	},
 	{
 		"index": "conjure-elemental",
@@ -2986,7 +3040,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/conjure-elemental"
+		"url": "/api/spells/conjure-elemental",
+		"id": 54
 	},
 	{
 		"index": "conjure-fey",
@@ -3028,7 +3083,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/conjure-fey"
+		"url": "/api/spells/conjure-fey",
+		"id": 55
 	},
 	{
 		"index": "conjure-minor-elementals",
@@ -3074,7 +3130,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/conjure-minor-elementals"
+		"url": "/api/spells/conjure-minor-elementals",
+		"id": 56
 	},
 	{
 		"index": "conjure-woodland-beings",
@@ -3122,7 +3179,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/conjure-woodland-beings"
+		"url": "/api/spells/conjure-woodland-beings",
+		"id": 57
 	},
 	{
 		"higher_level": [],
@@ -3168,7 +3226,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/contact-other-plane"
+		"url": "/api/spells/contact-other-plane",
+		"id": 58
 	},
 	{
 		"higher_level": [],
@@ -3223,7 +3282,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/contagion"
+		"url": "/api/spells/contagion",
+		"id": 59
 	},
 	{
 		"higher_level": [],
@@ -3259,7 +3319,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/contingency"
+		"url": "/api/spells/contingency",
+		"id": 60
 	},
 	{
 		"higher_level": [],
@@ -3304,7 +3365,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/continual-flame"
+		"url": "/api/spells/continual-flame",
+		"id": 61
 	},
 	{
 		"higher_level": [],
@@ -3319,7 +3381,7 @@
 			"***Redirect Flow.*** You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the spell's area, it resumes its flow based on the terrain conditions. The water continues to move in the direction you chose until the spell ends or you choose a different effect.",
 			"***Whirlpool.*** This effect requires a body of water at least 50 feet square and 25 feet deep. You cause a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature or object in the water and within 25 feet of the vortex is pulled 10 feet toward it. A creature can swim away from the vortex by making a Strength (Athletics) check against your spell save DC.",
 			"When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a strength saving throw. On a failed save, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn't caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but has disadvantage on the Strength (Athletics) check to do so.",
-			"The first time each turn that an object enters the vortex, the object takes 2d8 bludgeoning damage; this damage occurs each round it remains in the vortex."
+			"The first time each turn that an object enters the vortex, the object takes 2d8 bludgeoning damage this damage occurs each round it remains in the vortex."
 		],
 		"range": "300 feet",
 		"components": [
@@ -3378,7 +3440,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/control-water"
+		"url": "/api/spells/control-water",
+		"id": 62
 	},
 	{
 		"higher_level": [],
@@ -3455,7 +3518,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/control-weather"
+		"url": "/api/spells/control-weather",
+		"id": 63
 	},
 	{
 		"index": "counterspell",
@@ -3498,7 +3562,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/counterspell"
+		"url": "/api/spells/counterspell",
+		"id": 64
 	},
 	{
 		"higher_level": [],
@@ -3551,7 +3616,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/create-food-and-water"
+		"url": "/api/spells/create-food-and-water",
+		"id": 65
 	},
 	{
 		"index": "create-or-destroy-water",
@@ -3604,7 +3670,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/create-or-destroy-water"
+		"url": "/api/spells/create-or-destroy-water",
+		"id": 66
 	},
 	{
 		"index": "create-undead",
@@ -3652,7 +3719,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/create-undead"
+		"url": "/api/spells/create-undead",
+		"id": 67
 	},
 	{
 		"index": "creation",
@@ -3706,7 +3774,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/creation"
+		"url": "/api/spells/creation",
+		"id": 68
 	},
 	{
 		"index": "cure-wounds",
@@ -3782,7 +3851,8 @@
 				"url": "/api/subclasses/life"
 			}
 		],
-		"url": "/api/spells/cure-wounds"
+		"url": "/api/spells/cure-wounds",
+		"id": 69
 	},
 	{
 		"higher_level": [],
@@ -3833,7 +3903,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/dancing-lights"
+		"url": "/api/spells/dancing-lights",
+		"id": 70
 	},
 	{
 		"higher_level": [],
@@ -3893,7 +3964,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/darkness"
+		"url": "/api/spells/darkness",
+		"id": 71
 	},
 	{
 		"higher_level": [],
@@ -3948,7 +4020,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/darkvision"
+		"url": "/api/spells/darkvision",
+		"id": 72
 	},
 	{
 		"higher_level": [],
@@ -4017,7 +4090,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/daylight"
+		"url": "/api/spells/daylight",
+		"id": 73
 	},
 	{
 		"higher_level": [],
@@ -4062,7 +4136,8 @@
 				"url": "/api/subclasses/life"
 			}
 		],
-		"url": "/api/spells/death-ward"
+		"url": "/api/spells/death-ward",
+		"id": 74
 	},
 	{
 		"index": "delayed-blast-fireball",
@@ -4130,7 +4205,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/delayed-blast-fireball"
+		"url": "/api/spells/delayed-blast-fireball",
+		"id": 75
 	},
 	{
 		"higher_level": [],
@@ -4167,7 +4243,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/demiplane"
+		"url": "/api/spells/demiplane",
+		"id": 76
 	},
 	{
 		"higher_level": [],
@@ -4215,7 +4292,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/detect-evil-and-good"
+		"url": "/api/spells/detect-evil-and-good",
+		"id": 77
 	},
 	{
 		"higher_level": [],
@@ -4288,7 +4366,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/detect-magic"
+		"url": "/api/spells/detect-magic",
+		"id": 78
 	},
 	{
 		"higher_level": [],
@@ -4348,7 +4427,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/detect-poison-and-disease"
+		"url": "/api/spells/detect-poison-and-disease",
+		"id": 79
 	},
 	{
 		"higher_level": [],
@@ -4356,7 +4436,7 @@
 		"name": "Detect Thoughts",
 		"desc": [
 			"For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.",
-			"You initially learn the surface thoughts of the creature - what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.",
+			"You initially learn the surface thoughts of the creature - what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check if it succeeds, the spell ends.",
 			"Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.",
 			"You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.",
 			"Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range."
@@ -4402,7 +4482,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/detect-thoughts"
+		"url": "/api/spells/detect-thoughts",
+		"id": 80
 	},
 	{
 		"higher_level": [],
@@ -4460,7 +4541,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/dimension-door"
+		"url": "/api/spells/dimension-door",
+		"id": 81
 	},
 	{
 		"higher_level": [],
@@ -4510,7 +4592,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/disguise-self"
+		"url": "/api/spells/disguise-self",
+		"id": 82
 	},
 	{
 		"index": "disintegrate",
@@ -4576,7 +4659,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/disintegrate"
+		"url": "/api/spells/disintegrate",
+		"id": 83
 	},
 	{
 		"higher_level": [],
@@ -4627,7 +4711,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/dispel-evil-and-good"
+		"url": "/api/spells/dispel-evil-and-good",
+		"id": 84
 	},
 	{
 		"index": "dispel-magic",
@@ -4702,7 +4787,8 @@
 				"url": "/api/subclasses/devotion"
 			}
 		],
-		"url": "/api/spells/dispel-magic"
+		"url": "/api/spells/dispel-magic",
+		"id": 85
 	},
 	{
 		"higher_level": [],
@@ -4744,7 +4830,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/divination"
+		"url": "/api/spells/divination",
+		"id": 86
 	},
 	{
 		"higher_level": [],
@@ -4792,7 +4879,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/divine-favor"
+		"url": "/api/spells/divine-favor",
+		"id": 87
 	},
 	{
 		"higher_level": [],
@@ -4837,7 +4925,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/divine-word"
+		"url": "/api/spells/divine-word",
+		"id": 88
 	},
 	{
 		"index": "dominate-beast",
@@ -4886,7 +4975,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/dominate-beast"
+		"url": "/api/spells/dominate-beast",
+		"id": 89
 	},
 	{
 		"index": "dominate-monster",
@@ -4947,7 +5037,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/dominate-monster"
+		"url": "/api/spells/dominate-monster",
+		"id": 90
 	},
 	{
 		"index": "dominate-person",
@@ -5003,7 +5094,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/dominate-person"
+		"url": "/api/spells/dominate-person",
+		"id": 91
 	},
 	{
 		"higher_level": [],
@@ -5076,7 +5168,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/dream"
+		"url": "/api/spells/dream",
+		"id": 92
 	},
 	{
 		"higher_level": [],
@@ -5112,7 +5205,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/druidcraft"
+		"url": "/api/spells/druidcraft",
+		"id": 93
 	},
 	{
 		"higher_level": [],
@@ -5166,7 +5260,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/earthquake"
+		"url": "/api/spells/earthquake",
+		"id": 94
 	},
 	{
 		"higher_level": [],
@@ -5218,13 +5313,14 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/eldritch-blast"
+		"url": "/api/spells/eldritch-blast",
+		"id": 95
 	},
 	{
 		"index": "enhance-ability",
 		"name": "Enhance Ability",
 		"desc": [
-			"You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains that effect until the spell ends.",
+			"You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects the target gains that effect until the spell ends.",
 			"***Bear's Endurance.*** The target has advantage on constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends.",
 			"***Bull's Strength.*** The target has advantage on strength checks, and his or her carrying capacity doubles.",
 			"***Cat's Grace.*** The target has advantage on dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.",
@@ -5281,7 +5377,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/enhance-ability"
+		"url": "/api/spells/enhance-ability",
+		"id": 96
 	},
 	{
 		"higher_level": [],
@@ -5337,7 +5434,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/enlarge-reduce"
+		"url": "/api/spells/enlarge-reduce",
+		"id": 97
 	},
 	{
 		"higher_level": [],
@@ -5389,7 +5487,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/entangle"
+		"url": "/api/spells/entangle",
+		"id": 98
 	},
 	{
 		"higher_level": [],
@@ -5440,7 +5539,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/enthrall"
+		"url": "/api/spells/enthrall",
+		"id": 99
 	},
 	{
 		"index": "etherealness",
@@ -5498,7 +5598,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/etherealness"
+		"url": "/api/spells/etherealness",
+		"id": 100
 	},
 	{
 		"higher_level": [],
@@ -5546,7 +5647,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/expeditious-retreat"
+		"url": "/api/spells/expeditious-retreat",
+		"id": 101
 	},
 	{
 		"higher_level": [],
@@ -5605,7 +5707,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/eyebite"
+		"url": "/api/spells/eyebite",
+		"id": 102
 	},
 	{
 		"higher_level": [],
@@ -5639,7 +5742,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/fabricate"
+		"url": "/api/spells/fabricate",
+		"id": 103
 	},
 	{
 		"higher_level": [],
@@ -5689,7 +5793,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/faerie-fire"
+		"url": "/api/spells/faerie-fire",
+		"id": 104
 	},
 	{
 		"higher_level": [],
@@ -5736,7 +5841,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/faithful-hound"
+		"url": "/api/spells/faithful-hound",
+		"id": 105
 	},
 	{
 		"index": "false-life",
@@ -5794,7 +5900,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/false-life"
+		"url": "/api/spells/false-life",
+		"id": 106
 	},
 	{
 		"higher_level": [],
@@ -5863,7 +5970,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/fear"
+		"url": "/api/spells/fear",
+		"id": 107
 	},
 	{
 		"higher_level": [],
@@ -5912,7 +6020,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/feather-fall"
+		"url": "/api/spells/feather-fall",
+		"id": 108
 	},
 	{
 		"higher_level": [],
@@ -5983,7 +6092,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/feeblemind"
+		"url": "/api/spells/feeblemind",
+		"id": 109
 	},
 	{
 		"higher_level": [],
@@ -6023,7 +6133,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/find-familiar"
+		"url": "/api/spells/find-familiar",
+		"id": 110
 	},
 	{
 		"higher_level": [],
@@ -6065,7 +6176,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/find-steed"
+		"url": "/api/spells/find-steed",
+		"id": 111
 	},
 	{
 		"higher_level": [],
@@ -6105,7 +6217,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/find-the-path"
+		"url": "/api/spells/find-the-path",
+		"id": 112
 	},
 	{
 		"higher_level": [],
@@ -6154,7 +6267,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/find-traps"
+		"url": "/api/spells/find-traps",
+		"id": 113
 	},
 	{
 		"higher_level": [],
@@ -6215,7 +6329,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/finger-of-death"
+		"url": "/api/spells/finger-of-death",
+		"id": 114
 	},
 	{
 		"higher_level": [],
@@ -6267,7 +6382,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/fire-bolt"
+		"url": "/api/spells/fire-bolt",
+		"id": 115
 	},
 	{
 		"higher_level": [],
@@ -6323,7 +6439,8 @@
 				"url": "/api/subclasses/fiend"
 			}
 		],
-		"url": "/api/spells/fire-shield"
+		"url": "/api/spells/fire-shield",
+		"id": 116
 	},
 	{
 		"higher_level": [],
@@ -6388,7 +6505,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/fire-storm"
+		"url": "/api/spells/fire-storm",
+		"id": 117
 	},
 	{
 		"index": "fireball",
@@ -6469,7 +6587,8 @@
 				"url": "/api/subclasses/fiend"
 			}
 		],
-		"url": "/api/spells/fireball"
+		"url": "/api/spells/fireball",
+		"id": 118
 	},
 	{
 		"index": "flame-blade",
@@ -6526,7 +6645,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/flame-blade"
+		"url": "/api/spells/flame-blade",
+		"id": 119
 	},
 	{
 		"index": "flame-strike",
@@ -6599,7 +6719,8 @@
 				"url": "/api/subclasses/fiend"
 			}
 		],
-		"url": "/api/spells/flame-strike"
+		"url": "/api/spells/flame-strike",
+		"id": 120
 	},
 	{
 		"index": "flaming-sphere",
@@ -6665,7 +6786,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/flaming-sphere"
+		"url": "/api/spells/flaming-sphere",
+		"id": 121
 	},
 	{
 		"higher_level": [],
@@ -6673,7 +6795,7 @@
 		"name": "Flesh to Stone",
 		"desc": [
 			"You attempt to turn one creature that you can see within range into stone. If the target's body is made of flesh, the creature must make a constitution saving throw. On a failed save, it is restrained as its flesh begins to harden. On a successful save, the creature isn't affected.",
-			"A creature restrained by this spell must make another constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and subjected to the petrified condition for the duration. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.",
+			"A creature restrained by this spell must make another constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and subjected to the petrified condition for the duration. The successes and failures don't need to be consecutive keep track of both until the target collects three of a kind.",
 			"If the creature is physically broken while petrified, it suffers from similar deformities if it reverts to its original state.",
 			"If you maintain your concentration on this spell for the entire possible duration, the creature is turned to stone until the effect is removed."
 		],
@@ -6716,7 +6838,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/flesh-to-stone"
+		"url": "/api/spells/flesh-to-stone",
+		"id": 122
 	},
 	{
 		"higher_level": [],
@@ -6758,7 +6881,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/floating-disk"
+		"url": "/api/spells/floating-disk",
+		"id": 123
 	},
 	{
 		"index": "fly",
@@ -6810,7 +6934,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/fly"
+		"url": "/api/spells/fly",
+		"id": 124
 	},
 	{
 		"index": "fog-cloud",
@@ -6869,7 +6994,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/fog-cloud"
+		"url": "/api/spells/fog-cloud",
+		"id": 125
 	},
 	{
 		"higher_level": [],
@@ -6910,7 +7036,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/forbiddance"
+		"url": "/api/spells/forbiddance",
+		"id": 126
 	},
 	{
 		"higher_level": [],
@@ -6963,7 +7090,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/forcecage"
+		"url": "/api/spells/forcecage",
+		"id": 127
 	},
 	{
 		"higher_level": [],
@@ -7013,7 +7141,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/foresight"
+		"url": "/api/spells/foresight",
+		"id": 128
 	},
 	{
 		"higher_level": [],
@@ -7074,7 +7203,8 @@
 				"url": "/api/subclasses/devotion"
 			}
 		],
-		"url": "/api/spells/freedom-of-movement"
+		"url": "/api/spells/freedom-of-movement",
+		"id": 129
 	},
 	{
 		"index": "freezing-sphere",
@@ -7134,7 +7264,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/freezing-sphere"
+		"url": "/api/spells/freezing-sphere",
+		"id": 130
 	},
 	{
 		"higher_level": [],
@@ -7191,7 +7322,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/gaseous-form"
+		"url": "/api/spells/gaseous-form",
+		"id": 131
 	},
 	{
 		"higher_level": [],
@@ -7238,7 +7370,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/gate"
+		"url": "/api/spells/gate",
+		"id": 132
 	},
 	{
 		"index": "geas",
@@ -7301,7 +7434,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/geas"
+		"url": "/api/spells/geas",
+		"id": 133
 	},
 	{
 		"higher_level": [],
@@ -7347,7 +7481,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/gentle-repose"
+		"url": "/api/spells/gentle-repose",
+		"id": 134
 	},
 	{
 		"higher_level": [],
@@ -7382,7 +7517,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/giant-insect"
+		"url": "/api/spells/giant-insect",
+		"id": 135
 	},
 	{
 		"higher_level": [],
@@ -7418,7 +7554,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/glibness"
+		"url": "/api/spells/glibness",
+		"id": 136
 	},
 	{
 		"index": "globe-of-invulnerability",
@@ -7464,13 +7601,14 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/globe-of-invulnerability"
+		"url": "/api/spells/globe-of-invulnerability",
+		"id": 137
 	},
 	{
 		"index": "glyph-of-warding",
 		"name": "Glyph of Warding",
 		"desc": [
-			"When you cast this spell, you inscribe a glyph that harms other creatures, either upon a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place; if the object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.",
+			"When you cast this spell, you inscribe a glyph that harms other creatures, either upon a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place if the object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.",
 			"The glyph is nearly invisible and requires a successful Intelligence (Investigation) check against your spell save DC to be found.",
 			"You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends.",
 			"You can further refine the trigger so the spell activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind (for example, the ward could be set to affect aberrations or drow), or alignment. You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.",
@@ -7522,7 +7660,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/glyph-of-warding"
+		"url": "/api/spells/glyph-of-warding",
+		"id": 138
 	},
 	{
 		"higher_level": [],
@@ -7562,7 +7701,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/goodberry"
+		"url": "/api/spells/goodberry",
+		"id": 139
 	},
 	{
 		"higher_level": [],
@@ -7615,7 +7755,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/grease"
+		"url": "/api/spells/grease",
+		"id": 140
 	},
 	{
 		"higher_level": [],
@@ -7663,7 +7804,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/greater-invisibility"
+		"url": "/api/spells/greater-invisibility",
+		"id": 141
 	},
 	{
 		"higher_level": [],
@@ -7711,7 +7853,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/greater-restoration"
+		"url": "/api/spells/greater-restoration",
+		"id": 142
 	},
 	{
 		"higher_level": [],
@@ -7770,7 +7913,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/guardian-of-faith"
+		"url": "/api/spells/guardian-of-faith",
+		"id": 143
 	},
 	{
 		"higher_level": [],
@@ -7786,7 +7930,7 @@
 			"***Other Spell Effect.*** You can place your choice of one of the following magical effects within the warded area of the stronghold.",
 			"- Place dancing lights in four corridors. You can designate a simple program that the lights repeat as long as guards and wards lasts.",
 			"- Place magic mouth in two locations.",
-			"- Place stinking cloud in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while guards and wards lasts.",
+			"- Place stinking cloud in two locations. The vapors appear in the places you designate they return within 10 minutes if dispersed by wind while guards and wards lasts.",
 			"- Place a constant gust of wind in one corridor or room.",
 			"- Place a suggestion in one location. You select an area of up to 5 feet square, and any creature that enters or passes through the area receives the suggestion mentally.",
 			"The whole warded area radiates magic. A dispel magic cast on a specific effect, if successful, removes only that effect.",
@@ -7826,7 +7970,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/guards-and-wards"
+		"url": "/api/spells/guards-and-wards",
+		"id": 144
 	},
 	{
 		"higher_level": [],
@@ -7869,7 +8014,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/guidance"
+		"url": "/api/spells/guidance",
+		"id": 145
 	},
 	{
 		"index": "guiding-bolt",
@@ -7928,7 +8074,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/guiding-bolt"
+		"url": "/api/spells/guiding-bolt",
+		"id": 146
 	},
 	{
 		"higher_level": [],
@@ -7993,7 +8140,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/gust-of-wind"
+		"url": "/api/spells/gust-of-wind",
+		"id": 147
 	},
 	{
 		"higher_level": [],
@@ -8002,7 +8150,7 @@
 		"desc": [
 			"You touch a point and infuse an area around it with holy (or unholy) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a hallow spell. The affected area is subject to the following effects.",
 			"First, celestials, elementals, fey, fiends, and undead can't enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature charmed, frightened, or possessed by such a creature is no longer charmed, frightened, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect.",
-			"Second, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the GM. Some of these effects apply to creatures in the area; you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as ores or trolls. When a creature that would be affected enters the spell's area for the first time on a turn or starts its turn there, it can make a charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area.",
+			"Second, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the GM. Some of these effects apply to creatures in the area you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as ores or trolls. When a creature that would be affected enters the spell's area for the first time on a turn or starts its turn there, it can make a charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area.",
 			"***Courage.*** Affected creatures can't be frightened while in the area.",
 			"***Darkness.*** Darkness fills the area. Normal light, as well as magical light created by spells of a lower level than the slot you used to cast this spell, can't illuminate the area.",
 			"***Daylight.*** Bright light fills the area. Magical darkness created by spells of a lower level than the slot you used to cast this spell can't extinguish the light.",
@@ -8057,7 +8205,8 @@
 				"url": "/api/subclasses/fiend"
 			}
 		],
-		"url": "/api/spells/hallow"
+		"url": "/api/spells/hallow",
+		"id": 148
 	},
 	{
 		"higher_level": [],
@@ -8117,7 +8266,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/hallucinatory-terrain"
+		"url": "/api/spells/hallucinatory-terrain",
+		"id": 149
 	},
 	{
 		"higher_level": [],
@@ -8167,7 +8317,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/harm"
+		"url": "/api/spells/harm",
+		"id": 150
 	},
 	{
 		"higher_level": [],
@@ -8218,7 +8369,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/haste"
+		"url": "/api/spells/haste",
+		"id": 151
 	},
 	{
 		"index": "heal",
@@ -8263,7 +8415,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/heal"
+		"url": "/api/spells/heal",
+		"id": 152
 	},
 	{
 		"index": "healing-word",
@@ -8323,7 +8476,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/healing-word"
+		"url": "/api/spells/healing-word",
+		"id": 153
 	},
 	{
 		"index": "heat-metal",
@@ -8397,7 +8551,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/heat-metal"
+		"url": "/api/spells/heat-metal",
+		"id": 154
 	},
 	{
 		"higher_level": [],
@@ -8447,7 +8602,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/hellish-rebuke"
+		"url": "/api/spells/hellish-rebuke",
+		"id": 155
 	},
 	{
 		"higher_level": [],
@@ -8487,7 +8643,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/heroes-feast"
+		"url": "/api/spells/heroes-feast",
+		"id": 156
 	},
 	{
 		"higher_level": [],
@@ -8530,7 +8687,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/heroism"
+		"url": "/api/spells/heroism",
+		"id": 157
 	},
 	{
 		"higher_level": [],
@@ -8584,7 +8742,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/hideous-laughter"
+		"url": "/api/spells/hideous-laughter",
+		"id": 158
 	},
 	{
 		"index": "hold-monster",
@@ -8643,7 +8802,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/hold-monster"
+		"url": "/api/spells/hold-monster",
+		"id": 159
 	},
 	{
 		"index": "hold-person",
@@ -8723,7 +8883,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/hold-person"
+		"url": "/api/spells/hold-person",
+		"id": 160
 	},
 	{
 		"higher_level": [],
@@ -8761,7 +8922,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/holy-aura"
+		"url": "/api/spells/holy-aura",
+		"id": 161
 	},
 	{
 		"index": "hunters-mark",
@@ -8799,7 +8961,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/hunters-mark"
+		"url": "/api/spells/hunters-mark",
+		"id": 162
 	},
 	{
 		"higher_level": [],
@@ -8863,7 +9026,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/hypnotic-pattern"
+		"url": "/api/spells/hypnotic-pattern",
+		"id": 163
 	},
 	{
 		"index": "ice-storm",
@@ -8943,7 +9107,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/ice-storm"
+		"url": "/api/spells/ice-storm",
+		"id": 164
 	},
 	{
 		"higher_level": [],
@@ -8989,7 +9154,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/identify"
+		"url": "/api/spells/identify",
+		"id": 165
 	},
 	{
 		"higher_level": [],
@@ -9041,14 +9207,15 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/illusory-script"
+		"url": "/api/spells/illusory-script",
+		"id": 166
 	},
 	{
 		"higher_level": [],
 		"index": "imprisonment",
 		"name": "Imprisonment",
 		"desc": [
-			"You create a magical restraint to hold a creature that you can see within range. The target must succeed on a wisdom saving throw or be bound by the spell; if it succeeds, it is immune to this spell if you cast it again. While affected by this spell, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Divination spells can't locate or perceive the target.",
+			"You create a magical restraint to hold a creature that you can see within range. The target must succeed on a wisdom saving throw or be bound by the spell if it succeeds, it is immune to this spell if you cast it again. While affected by this spell, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Divination spells can't locate or perceive the target.",
 			"When you cast the spell, you choose one of the following forms of imprisonment.",
 			"***Burial.*** The target is entombed far beneath the earth in a sphere of magical force that is just large enough to contain the target. Nothing can pass through the sphere, nor can any creature teleport or use planar travel to get into or out of it.",
 			"The special component for this version of the spell is a small mithral orb.",
@@ -9103,7 +9270,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/imprisonment"
+		"url": "/api/spells/imprisonment",
+		"id": 167
 	},
 	{
 		"higher_level": [],
@@ -9164,7 +9332,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/incendiary-cloud"
+		"url": "/api/spells/incendiary-cloud",
+		"id": 168
 	},
 	{
 		"index": "inflict-wounds",
@@ -9223,7 +9392,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/inflict-wounds"
+		"url": "/api/spells/inflict-wounds",
+		"id": 169
 	},
 	{
 		"index": "insect-plague",
@@ -9302,7 +9472,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/insect-plague"
+		"url": "/api/spells/insect-plague",
+		"id": 170
 	},
 	{
 		"higher_level": [],
@@ -9339,7 +9510,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/instant-summons"
+		"url": "/api/spells/instant-summons",
+		"id": 171
 	},
 	{
 		"index": "invisibility",
@@ -9401,7 +9573,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/invisibility"
+		"url": "/api/spells/invisibility",
+		"id": 172
 	},
 	{
 		"higher_level": [],
@@ -9438,7 +9611,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/irresistible-dance"
+		"url": "/api/spells/irresistible-dance",
+		"id": 173
 	},
 	{
 		"higher_level": [],
@@ -9493,7 +9667,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/jump"
+		"url": "/api/spells/jump",
+		"id": 174
 	},
 	{
 		"higher_level": [],
@@ -9543,7 +9718,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/knock"
+		"url": "/api/spells/knock",
+		"id": 175
 	},
 	{
 		"higher_level": [],
@@ -9588,7 +9764,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/legend-lore"
+		"url": "/api/spells/legend-lore",
+		"id": 176
 	},
 	{
 		"higher_level": [],
@@ -9656,7 +9833,8 @@
 				"url": "/api/subclasses/devotion"
 			}
 		],
-		"url": "/api/spells/lesser-restoration"
+		"url": "/api/spells/lesser-restoration",
+		"id": 177
 	},
 	{
 		"higher_level": [],
@@ -9703,7 +9881,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/levitate"
+		"url": "/api/spells/levitate",
+		"id": 178
 	},
 	{
 		"higher_level": [],
@@ -9766,7 +9945,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/light"
+		"url": "/api/spells/light",
+		"id": 179
 	},
 	{
 		"index": "lightning-bolt",
@@ -9847,7 +10027,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/lightning-bolt"
+		"url": "/api/spells/lightning-bolt",
+		"id": 180
 	},
 	{
 		"higher_level": [],
@@ -9897,7 +10078,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/locate-animals-or-plants"
+		"url": "/api/spells/locate-animals-or-plants",
+		"id": 181
 	},
 	{
 		"higher_level": [],
@@ -9964,7 +10146,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/locate-creature"
+		"url": "/api/spells/locate-creature",
+		"id": 182
 	},
 	{
 		"higher_level": [],
@@ -10031,7 +10214,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/locate-object"
+		"url": "/api/spells/locate-object",
+		"id": 183
 	},
 	{
 		"index": "longstrider",
@@ -10088,7 +10272,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/longstrider"
+		"url": "/api/spells/longstrider",
+		"id": 184
 	},
 	{
 		"higher_level": [],
@@ -10133,7 +10318,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/mage-armor"
+		"url": "/api/spells/mage-armor",
+		"id": 185
 	},
 	{
 		"higher_level": [],
@@ -10188,7 +10374,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/mage-hand"
+		"url": "/api/spells/mage-hand",
+		"id": 186
 	},
 	{
 		"index": "magic-circle",
@@ -10263,7 +10450,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/magic-circle"
+		"url": "/api/spells/magic-circle",
+		"id": 187
 	},
 	{
 		"higher_level": [],
@@ -10312,7 +10500,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/magic-jar"
+		"url": "/api/spells/magic-jar",
+		"id": 188
 	},
 	{
 		"index": "magic-missile",
@@ -10375,7 +10564,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/magic-missile"
+		"url": "/api/spells/magic-missile",
+		"id": 189
 	},
 	{
 		"higher_level": [],
@@ -10423,7 +10613,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/magic-mouth"
+		"url": "/api/spells/magic-mouth",
+		"id": 190
 	},
 	{
 		"index": "magic-weapon",
@@ -10468,7 +10659,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/magic-weapon"
+		"url": "/api/spells/magic-weapon",
+		"id": 191
 	},
 	{
 		"higher_level": [],
@@ -10513,7 +10705,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/magnificent-mansion"
+		"url": "/api/spells/magnificent-mansion",
+		"id": 192
 	},
 	{
 		"index": "major-image",
@@ -10572,7 +10765,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/major-image"
+		"url": "/api/spells/major-image",
+		"id": 193
 	},
 	{
 		"index": "mass-cure-wounds",
@@ -10633,7 +10827,8 @@
 				"url": "/api/subclasses/life"
 			}
 		],
-		"url": "/api/spells/mass-cure-wounds"
+		"url": "/api/spells/mass-cure-wounds",
+		"id": 194
 	},
 	{
 		"higher_level": [],
@@ -10668,7 +10863,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/mass-heal"
+		"url": "/api/spells/mass-heal",
+		"id": 195
 	},
 	{
 		"index": "mass-healing-word",
@@ -10716,7 +10912,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/mass-healing-word"
+		"url": "/api/spells/mass-healing-word",
+		"id": 196
 	},
 	{
 		"index": "mass-suggestion",
@@ -10777,7 +10974,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/mass-suggestion"
+		"url": "/api/spells/mass-suggestion",
+		"id": 197
 	},
 	{
 		"higher_level": [],
@@ -10811,7 +11009,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/maze"
+		"url": "/api/spells/maze",
+		"id": 198
 	},
 	{
 		"higher_level": [],
@@ -10856,7 +11055,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/meld-into-stone"
+		"url": "/api/spells/meld-into-stone",
+		"id": 199
 	},
 	{
 		"higher_level": [],
@@ -10917,7 +11117,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/mending"
+		"url": "/api/spells/mending",
+		"id": 200
 	},
 	{
 		"higher_level": [],
@@ -10968,7 +11169,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/message"
+		"url": "/api/spells/message",
+		"id": 201
 	},
 	{
 		"higher_level": [],
@@ -11028,7 +11230,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/meteor-swarm"
+		"url": "/api/spells/meteor-swarm",
+		"id": 202
 	},
 	{
 		"higher_level": [],
@@ -11065,7 +11268,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/mind-blank"
+		"url": "/api/spells/mind-blank",
+		"id": 203
 	},
 	{
 		"higher_level": [],
@@ -11122,7 +11326,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/minor-illusion"
+		"url": "/api/spells/minor-illusion",
+		"id": 204
 	},
 	{
 		"higher_level": [],
@@ -11132,7 +11337,7 @@
 			"You make terrain in an area up to 1 mile square look, sound, smell, and even feel like some other sort of terrain. The terrain's general shape remains the same, however. Open fields or a road could be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road.",
 			"Similarly, you can alter the appearance of structures, or add them where none are present. The spell doesn't disguise, conceal, or add creatures.",
 			"The illusion includes audible, visual, tactile, and olfactory elements, so it can turn clear ground into difficult terrain (or vice versa) or otherwise impede movement through the area. Any piece of the illusory terrain (such as a rock or stick) that is removed from the spell's area disappears immediately.",
-			"Creatures with truesight can see through the illusion to the terrain's true form; however, all other elements of the illusion remain, so while the creature is aware of the illusion's presence, the creature can still physically interact with the illusion."
+			"Creatures with truesight can see through the illusion to the terrain's true form however, all other elements of the illusion remain, so while the creature is aware of the illusion's presence, the creature can still physically interact with the illusion."
 		],
 		"range": "Sight",
 		"components": [
@@ -11171,7 +11376,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/mirage-arcane"
+		"url": "/api/spells/mirage-arcane",
+		"id": 205
 	},
 	{
 		"higher_level": [],
@@ -11228,7 +11434,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/mirror-image"
+		"url": "/api/spells/mirror-image",
+		"id": 206
 	},
 	{
 		"higher_level": [],
@@ -11266,7 +11473,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/mislead"
+		"url": "/api/spells/mislead",
+		"id": 207
 	},
 	{
 		"higher_level": [],
@@ -11318,7 +11526,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/misty-step"
+		"url": "/api/spells/misty-step",
+		"id": 208
 	},
 	{
 		"index": "modify-memory",
@@ -11369,7 +11578,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/modify-memory"
+		"url": "/api/spells/modify-memory",
+		"id": 209
 	},
 	{
 		"index": "moonbeam",
@@ -11443,7 +11653,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/moonbeam"
+		"url": "/api/spells/moonbeam",
+		"id": 210
 	},
 	{
 		"higher_level": [],
@@ -11495,7 +11706,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/move-earth"
+		"url": "/api/spells/move-earth",
+		"id": 211
 	},
 	{
 		"higher_level": [],
@@ -11545,7 +11757,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/nondetection"
+		"url": "/api/spells/nondetection",
+		"id": 212
 	},
 	{
 		"higher_level": [],
@@ -11595,7 +11808,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/pass-without-trace"
+		"url": "/api/spells/pass-without-trace",
+		"id": 213
 	},
 	{
 		"higher_level": [],
@@ -11636,7 +11850,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/passwall"
+		"url": "/api/spells/passwall",
+		"id": 214
 	},
 	{
 		"index": "phantasmal-killer",
@@ -11688,7 +11903,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/phantasmal-killer"
+		"url": "/api/spells/phantasmal-killer",
+		"id": 215
 	},
 	{
 		"higher_level": [],
@@ -11727,7 +11943,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/phantom-steed"
+		"url": "/api/spells/phantom-steed",
+		"id": 216
 	},
 	{
 		"higher_level": [],
@@ -11764,7 +11981,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/planar-ally"
+		"url": "/api/spells/planar-ally",
+		"id": 217
 	},
 	{
 		"index": "planar-binding",
@@ -11824,7 +12042,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/planar-binding"
+		"url": "/api/spells/planar-binding",
+		"id": 218
 	},
 	{
 		"higher_level": [],
@@ -11890,7 +12109,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/plane-shift"
+		"url": "/api/spells/plane-shift",
+		"id": 219
 	},
 	{
 		"higher_level": [],
@@ -11946,7 +12166,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/plant-growth"
+		"url": "/api/spells/plant-growth",
+		"id": 220
 	},
 	{
 		"higher_level": [],
@@ -12010,7 +12231,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/poison-spray"
+		"url": "/api/spells/poison-spray",
+		"id": 221
 	},
 	{
 		"higher_level": [],
@@ -12071,7 +12293,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/polymorph"
+		"url": "/api/spells/polymorph",
+		"id": 222
 	},
 	{
 		"higher_level": [],
@@ -12117,7 +12340,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/power-word-kill"
+		"url": "/api/spells/power-word-kill",
+		"id": 223
 	},
 	{
 		"higher_level": [],
@@ -12164,7 +12388,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/power-word-stun"
+		"url": "/api/spells/power-word-stun",
+		"id": 224
 	},
 	{
 		"index": "prayer-of-healing",
@@ -12213,7 +12438,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/prayer-of-healing"
+		"url": "/api/spells/prayer-of-healing",
+		"id": 225
 	},
 	{
 		"higher_level": [],
@@ -12273,7 +12499,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/prestidigitation"
+		"url": "/api/spells/prestidigitation",
+		"id": 226
 	},
 	{
 		"higher_level": [],
@@ -12286,7 +12513,7 @@
 			"***3. Yellow.*** The target takes 10d6 lightning damage on a failed save, or half as much damage on a successful one.",
 			"***4. Green.*** The target takes 10d6 poison damage on a failed save, or half as much damage on a successful one.",
 			"***5. Blue.*** The target takes 10d6 cold damage on a failed save, or half as much damage on a successful one.",
-			"***6. Indigo.*** On a failed save, the target is restrained. It must then make a constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.",
+			"***6. Indigo.*** On a failed save, the target is restrained. It must then make a constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive keep track of both until the target collects three of a kind.",
 			"***7. Violet.*** On a failed save, the target is blinded. It must then make a wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the GM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)",
 			"***8. Special.*** The target is struck by two rays. Roll twice more, rerolling any 8."
 		],
@@ -12336,7 +12563,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/prismatic-spray"
+		"url": "/api/spells/prismatic-spray",
+		"id": 227
 	},
 	{
 		"higher_level": [],
@@ -12352,7 +12580,7 @@
 			"***3. Yellow.*** The creature takes 10d6 lightning damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 60 force damage to it.",
 			"***4. Green.*** The creature takes 10d6 poison damage on a failed save, or half as much damage on a successful one. A passwall spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.",
 			"***5. Blue.*** The creature takes 10d6 cold damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 25 fire damage to it.",
-			"***6. Indigo.*** On a failed save, the creature is restrained. It must then make a constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive; keep track of both until the creature collects three of a kind.",
+			"***6. Indigo.*** On a failed save, the creature is restrained. It must then make a constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive keep track of both until the creature collects three of a kind.",
 			"While this layer is in place, spells can't be cast through the wall. The layer is destroyed by bright light shed by a daylight spell or a similar spell of equal or higher level.",
 			"***7. Violet.*** On a failed save, the creature is blinded. It must then make a wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the GM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a dispel magic spell or a similar spell of equal or higher level that can end spells and magical effects."
 		],
@@ -12383,7 +12611,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/prismatic-wall"
+		"url": "/api/spells/prismatic-wall",
+		"id": 228
 	},
 	{
 		"index": "private-sanctum",
@@ -12431,7 +12660,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/private-sanctum"
+		"url": "/api/spells/private-sanctum",
+		"id": 229
 	},
 	{
 		"higher_level": [],
@@ -12485,7 +12715,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/produce-flame"
+		"url": "/api/spells/produce-flame",
+		"id": 230
 	},
 	{
 		"higher_level": [],
@@ -12531,7 +12762,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/programmed-illusion"
+		"url": "/api/spells/programmed-illusion",
+		"id": 231
 	},
 	{
 		"higher_level": [],
@@ -12573,7 +12805,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/project-image"
+		"url": "/api/spells/project-image",
+		"id": 232
 	},
 	{
 		"higher_level": [],
@@ -12636,7 +12869,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/protection-from-energy"
+		"url": "/api/spells/protection-from-energy",
+		"id": 233
 	},
 	{
 		"higher_level": [],
@@ -12697,7 +12931,8 @@
 				"url": "/api/subclasses/devotion"
 			}
 		],
-		"url": "/api/spells/protection-from-evil-and-good"
+		"url": "/api/spells/protection-from-evil-and-good",
+		"id": 234
 	},
 	{
 		"higher_level": [],
@@ -12751,7 +12986,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/protection-from-poison"
+		"url": "/api/spells/protection-from-poison",
+		"id": 235
 	},
 	{
 		"higher_level": [],
@@ -12799,7 +13035,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/purify-food-and-drink"
+		"url": "/api/spells/purify-food-and-drink",
+		"id": 236
 	},
 	{
 		"higher_level": [],
@@ -12807,7 +13044,7 @@
 		"name": "Raise Dead",
 		"desc": [
 			"You return a dead creature you touch to life, provided that it has been dead no longer than 10 days. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.",
-			"This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects; if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an undead creature to life.",
+			"This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an undead creature to life.",
 			"This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival--its head, for instance--the spell automatically fails.",
 			"Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears."
 		],
@@ -12852,7 +13089,8 @@
 				"url": "/api/subclasses/life"
 			}
 		],
-		"url": "/api/spells/raise-dead"
+		"url": "/api/spells/raise-dead",
+		"id": 237
 	},
 	{
 		"higher_level": [],
@@ -12905,7 +13143,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/ray-of-enfeeblement"
+		"url": "/api/spells/ray-of-enfeeblement",
+		"id": 238
 	},
 	{
 		"higher_level": [],
@@ -12963,7 +13202,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/ray-of-frost"
+		"url": "/api/spells/ray-of-frost",
+		"id": 239
 	},
 	{
 		"higher_level": [],
@@ -13011,7 +13251,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/regenerate"
+		"url": "/api/spells/regenerate",
+		"id": 240
 	},
 	{
 		"higher_level": [],
@@ -13063,7 +13304,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/reincarnate"
+		"url": "/api/spells/reincarnate",
+		"id": 241
 	},
 	{
 		"higher_level": [],
@@ -13116,7 +13358,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/remove-curse"
+		"url": "/api/spells/remove-curse",
+		"id": 242
 	},
 	{
 		"higher_level": [],
@@ -13161,7 +13404,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/resilient-sphere"
+		"url": "/api/spells/resilient-sphere",
+		"id": 243
 	},
 	{
 		"higher_level": [],
@@ -13206,7 +13450,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/resistance"
+		"url": "/api/spells/resistance",
+		"id": 244
 	},
 	{
 		"higher_level": [],
@@ -13214,7 +13459,7 @@
 		"name": "Resurrection",
 		"desc": [
 			"You touch a dead creature that has been dead for no more than a century, that didn't die of old age, and that isn't undead. If its soul is free and willing, the target returns to life with all its hit points.",
-			"This spell neutralizes any poisons and cures normal diseases afflicting the creature when it died. It doesn't, however, remove magical diseases, curses, and the like; if such effects aren't removed prior to casting the spell, they afflict the target on its return to life.",
+			"This spell neutralizes any poisons and cures normal diseases afflicting the creature when it died. It doesn't, however, remove magical diseases, curses, and the like if such effects aren't removed prior to casting the spell, they afflict the target on its return to life.",
 			"This spell closes all mortal wounds and restores any missing body parts.",
 			"Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.",
 			"Casting this spell to restore life to a creature that has been dead for one year or longer taxes you greatly. Until you finish a long rest, you can't cast spells again, and you have disadvantage on all attack rolls, ability checks, and saving throws."
@@ -13249,7 +13494,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/resurrection"
+		"url": "/api/spells/resurrection",
+		"id": 245
 	},
 	{
 		"higher_level": [],
@@ -13308,7 +13554,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/reverse-gravity"
+		"url": "/api/spells/reverse-gravity",
+		"id": 246
 	},
 	{
 		"higher_level": [],
@@ -13358,7 +13605,8 @@
 				"url": "/api/subclasses/life"
 			}
 		],
-		"url": "/api/spells/revivify"
+		"url": "/api/spells/revivify",
+		"id": 247
 	},
 	{
 		"higher_level": [],
@@ -13401,7 +13649,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/rope-trick"
+		"url": "/api/spells/rope-trick",
+		"id": 248
 	},
 	{
 		"higher_level": [],
@@ -13461,7 +13710,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/sacred-flame"
+		"url": "/api/spells/sacred-flame",
+		"id": 249
 	},
 	{
 		"higher_level": [],
@@ -13507,7 +13757,8 @@
 				"url": "/api/subclasses/devotion"
 			}
 		],
-		"url": "/api/spells/sanctuary"
+		"url": "/api/spells/sanctuary",
+		"id": 250
 	},
 	{
 		"index": "scorching-ray",
@@ -13568,7 +13819,8 @@
 				"url": "/api/subclasses/fiend"
 			}
 		],
-		"url": "/api/spells/scorching-ray"
+		"url": "/api/spells/scorching-ray",
+		"id": 251
 	},
 	{
 		"higher_level": [],
@@ -13650,7 +13902,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/scrying"
+		"url": "/api/spells/scrying",
+		"id": 252
 	},
 	{
 		"higher_level": [],
@@ -13686,7 +13939,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/secret-chest"
+		"url": "/api/spells/secret-chest",
+		"id": 253
 	},
 	{
 		"higher_level": [],
@@ -13736,7 +13990,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/see-invisibility"
+		"url": "/api/spells/see-invisibility",
+		"id": 254
 	},
 	{
 		"higher_level": [],
@@ -13781,7 +14036,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/seeming"
+		"url": "/api/spells/seeming",
+		"id": 255
 	},
 	{
 		"higher_level": [],
@@ -13832,7 +14088,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/sending"
+		"url": "/api/spells/sending",
+		"id": 256
 	},
 	{
 		"higher_level": [],
@@ -13868,7 +14125,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/sequester"
+		"url": "/api/spells/sequester",
+		"id": 257
 	},
 	{
 		"higher_level": [],
@@ -13912,7 +14170,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/shapechange"
+		"url": "/api/spells/shapechange",
+		"id": 258
 	},
 	{
 		"index": "shatter",
@@ -13999,7 +14258,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/shatter"
+		"url": "/api/spells/shatter",
+		"id": 259
 	},
 	{
 		"higher_level": [],
@@ -14042,7 +14302,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/shield"
+		"url": "/api/spells/shield",
+		"id": 260
 	},
 	{
 		"higher_level": [],
@@ -14087,7 +14348,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/shield-of-faith"
+		"url": "/api/spells/shield-of-faith",
+		"id": 261
 	},
 	{
 		"higher_level": [],
@@ -14127,7 +14389,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/shillelagh"
+		"url": "/api/spells/shillelagh",
+		"id": 262
 	},
 	{
 		"higher_level": [],
@@ -14185,7 +14448,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/shocking-grasp"
+		"url": "/api/spells/shocking-grasp",
+		"id": 263
 	},
 	{
 		"higher_level": [],
@@ -14243,14 +14507,15 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/silence"
+		"url": "/api/spells/silence",
+		"id": 264
 	},
 	{
 		"higher_level": [],
 		"index": "silent-image",
 		"name": "Silent Image",
 		"desc": [
-			"You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects.",
+			"You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual it isn't accompanied by sound, smell, or other sensory effects.",
 			"You can use your action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.",
 			"Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image."
 		],
@@ -14299,7 +14564,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/silent-image"
+		"url": "/api/spells/silent-image",
+		"id": 265
 	},
 	{
 		"higher_level": [],
@@ -14317,7 +14583,7 @@
 			"S",
 			"M"
 		],
-		"material": "Snow or ice in quantities sufficient to made a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature's body placed inside the snow or ice; and powdered ruby worth 1,500 gp, sprinkled over the duplicate and consumed by the spell.",
+		"material": "Snow or ice in quantities sufficient to made a life-size copy of the duplicated creature some hair, fingernail clippings, or other piece of that creature's body placed inside the snow or ice and powdered ruby worth 1,500 gp, sprinkled over the duplicate and consumed by the spell.",
 		"ritual": false,
 		"duration": "Until dispelled",
 		"concentration": false,
@@ -14336,13 +14602,14 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/simulacrum"
+		"url": "/api/spells/simulacrum",
+		"id": 266
 	},
 	{
 		"index": "sleep",
 		"name": "Sleep",
 		"desc": [
-			"This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).",
+			"This spell sends creatures into a magical slumber. Roll 5d8 the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).",
 			"Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.",
 			"Undead and creatures immune to being charmed aren't affected by this spell."
 		],
@@ -14399,7 +14666,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/sleep"
+		"url": "/api/spells/sleep",
+		"id": 267
 	},
 	{
 		"higher_level": [],
@@ -14460,7 +14728,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/sleet-storm"
+		"url": "/api/spells/sleet-storm",
+		"id": 268
 	},
 	{
 		"higher_level": [],
@@ -14526,7 +14795,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/slow"
+		"url": "/api/spells/slow",
+		"id": 269
 	},
 	{
 		"higher_level": [],
@@ -14558,7 +14828,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/spare-the-dying"
+		"url": "/api/spells/spare-the-dying",
+		"id": 270
 	},
 	{
 		"higher_level": [],
@@ -14606,7 +14877,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/speak-with-animals"
+		"url": "/api/spells/speak-with-animals",
+		"id": 271
 	},
 	{
 		"higher_level": [],
@@ -14652,7 +14924,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/speak-with-dead"
+		"url": "/api/spells/speak-with-dead",
+		"id": 272
 	},
 	{
 		"higher_level": [],
@@ -14708,7 +14981,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/speak-with-plants"
+		"url": "/api/spells/speak-with-plants",
+		"id": 273
 	},
 	{
 		"higher_level": [],
@@ -14763,7 +15037,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/spider-climb"
+		"url": "/api/spells/spider-climb",
+		"id": 274
 	},
 	{
 		"higher_level": [],
@@ -14818,7 +15093,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/spike-growth"
+		"url": "/api/spells/spike-growth",
+		"id": 275
 	},
 	{
 		"index": "spirit-guardians",
@@ -14861,7 +15137,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/spirit-guardians"
+		"url": "/api/spells/spirit-guardians",
+		"id": 276
 	},
 	{
 		"index": "spiritual-weapon",
@@ -14926,7 +15203,8 @@
 				"url": "/api/subclasses/life"
 			}
 		],
-		"url": "/api/spells/spiritual-weapon"
+		"url": "/api/spells/spiritual-weapon",
+		"id": 277
 	},
 	{
 		"higher_level": [],
@@ -15001,7 +15279,8 @@
 				"url": "/api/subclasses/fiend"
 			}
 		],
-		"url": "/api/spells/stinking-cloud"
+		"url": "/api/spells/stinking-cloud",
+		"id": 278
 	},
 	{
 		"higher_level": [],
@@ -15051,7 +15330,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/stone-shape"
+		"url": "/api/spells/stone-shape",
+		"id": 279
 	},
 	{
 		"higher_level": [],
@@ -15106,7 +15386,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/stoneskin"
+		"url": "/api/spells/stoneskin",
+		"id": 280
 	},
 	{
 		"higher_level": [],
@@ -15166,7 +15447,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/storm-of-vengeance"
+		"url": "/api/spells/storm-of-vengeance",
+		"id": 281
 	},
 	{
 		"higher_level": [],
@@ -15231,7 +15513,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/suggestion"
+		"url": "/api/spells/suggestion",
+		"id": 282
 	},
 	{
 		"higher_level": [],
@@ -15300,7 +15583,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/sunbeam"
+		"url": "/api/spells/sunbeam",
+		"id": 283
 	},
 	{
 		"higher_level": [],
@@ -15369,14 +15653,15 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/sunburst"
+		"url": "/api/spells/sunburst",
+		"id": 284
 	},
 	{
 		"higher_level": [],
 		"index": "symbol",
 		"name": "Symbol",
 		"desc": [
-			"When you cast this spell, you inscribe a harmful glyph either on a surface (such as a section of floor, a wall, or a table) or within an object that can be closed to conceal the glyph (such as a book, a scroll, or a treasure chest). If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place; if the object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.",
+			"When you cast this spell, you inscribe a harmful glyph either on a surface (such as a section of floor, a wall, or a table) or within an object that can be closed to conceal the glyph (such as a book, a scroll, or a treasure chest). If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place if the object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.",
 			"The glyph is nearly invisible, requiring an Intelligence (Investigation) check against your spell save DC to find it.",
 			"You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or stepping on the glyph, removing another object covering it, approaching within a certain distance of it, or manipulating the object that holds it. For glyphs inscribed within an object, the most common triggers are opening the object, approaching within a certain distance of it, or seeing or reading the glyph.",
 			"You can further refine the trigger so the spell is activated only under certain circumstances or according to a creature's physical characteristics (such as height or weight), or physical kind (for example, the ward could be set to affect hags or shapechangers). You can also specify creatures that don't trigger the glyph, such as those who say a certain password.",
@@ -15429,7 +15714,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/symbol"
+		"url": "/api/spells/symbol",
+		"id": 285
 	},
 	{
 		"higher_level": [],
@@ -15475,7 +15761,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/telekinesis"
+		"url": "/api/spells/telekinesis",
+		"id": 286
 	},
 	{
 		"higher_level": [],
@@ -15510,7 +15797,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/telepathic-bond"
+		"url": "/api/spells/telepathic-bond",
+		"id": 287
 	},
 	{
 		"higher_level": [],
@@ -15576,7 +15864,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/teleport"
+		"url": "/api/spells/teleport",
+		"id": 288
 	},
 	{
 		"higher_level": [],
@@ -15625,7 +15914,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/teleportation-circle"
+		"url": "/api/spells/teleportation-circle",
+		"id": 289
 	},
 	{
 		"higher_level": [],
@@ -15669,7 +15959,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/thaumaturgy"
+		"url": "/api/spells/thaumaturgy",
+		"id": 290
 	},
 	{
 		"index": "thunderwave",
@@ -15755,7 +16046,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/thunderwave"
+		"url": "/api/spells/thunderwave",
+		"id": 291
 	},
 	{
 		"higher_level": [],
@@ -15792,7 +16084,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/time-stop"
+		"url": "/api/spells/time-stop",
+		"id": 292
 	},
 	{
 		"higher_level": [],
@@ -15843,7 +16136,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/tiny-hut"
+		"url": "/api/spells/tiny-hut",
+		"id": 293
 	},
 	{
 		"higher_level": [],
@@ -15902,7 +16196,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/tongues"
+		"url": "/api/spells/tongues",
+		"id": 294
 	},
 	{
 		"higher_level": [],
@@ -15934,7 +16229,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/transport-via-plants"
+		"url": "/api/spells/transport-via-plants",
+		"id": 295
 	},
 	{
 		"higher_level": [],
@@ -15978,7 +16274,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/tree-stride"
+		"url": "/api/spells/tree-stride",
+		"id": 296
 	},
 	{
 		"higher_level": [],
@@ -16030,7 +16327,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/true-polymorph"
+		"url": "/api/spells/true-polymorph",
+		"id": 297
 	},
 	{
 		"higher_level": [],
@@ -16071,7 +16369,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/true-resurrection"
+		"url": "/api/spells/true-resurrection",
+		"id": 298
 	},
 	{
 		"higher_level": [],
@@ -16086,7 +16385,7 @@
 			"S",
 			"M"
 		],
-		"material": "An ointment for the eyes that costs 25gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell.",
+		"material": "An ointment for the eyes that costs 25gp is made from mushroom powder, saffron, and fat and is consumed by the spell.",
 		"ritual": false,
 		"duration": "1 hour",
 		"concentration": false,
@@ -16125,7 +16424,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/true-seeing"
+		"url": "/api/spells/true-seeing",
+		"id": 299
 	},
 	{
 		"higher_level": [],
@@ -16177,7 +16477,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/true-strike"
+		"url": "/api/spells/true-strike",
+		"id": 300
 	},
 	{
 		"higher_level": [],
@@ -16229,7 +16530,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/unseen-servant"
+		"url": "/api/spells/unseen-servant",
+		"id": 301
 	},
 	{
 		"index": "vampiric-touch",
@@ -16291,7 +16593,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/vampiric-touch"
+		"url": "/api/spells/vampiric-touch",
+		"id": 302
 	},
 	{
 		"higher_level": [],
@@ -16344,7 +16647,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/vicious-mockery"
+		"url": "/api/spells/vicious-mockery",
+		"id": 303
 	},
 	{
 		"index": "wall-of-fire",
@@ -16421,7 +16725,8 @@
 				"url": "/api/subclasses/fiend"
 			}
 		],
-		"url": "/api/spells/wall-of-fire"
+		"url": "/api/spells/wall-of-fire",
+		"id": 304
 	},
 	{
 		"higher_level": [],
@@ -16456,7 +16761,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/wall-of-force"
+		"url": "/api/spells/wall-of-force",
+		"id": 305
 	},
 	{
 		"index": "wall-of-ice",
@@ -16519,7 +16825,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/wall-of-ice"
+		"url": "/api/spells/wall-of-ice",
+		"id": 306
 	},
 	{
 		"higher_level": [],
@@ -16574,7 +16881,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/wall-of-stone"
+		"url": "/api/spells/wall-of-stone",
+		"id": 307
 	},
 	{
 		"index": "wall-of-thorns",
@@ -16637,7 +16945,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/wall-of-thorns"
+		"url": "/api/spells/wall-of-thorns",
+		"id": 308
 	},
 	{
 		"higher_level": [],
@@ -16679,7 +16988,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/warding-bond"
+		"url": "/api/spells/warding-bond",
+		"id": 309
 	},
 	{
 		"higher_level": [],
@@ -16739,7 +17049,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/water-breathing"
+		"url": "/api/spells/water-breathing",
+		"id": 310
 	},
 	{
 		"higher_level": [],
@@ -16800,7 +17111,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/water-walk"
+		"url": "/api/spells/water-walk",
+		"id": 311
 	},
 	{
 		"higher_level": [],
@@ -16858,7 +17170,8 @@
 				"url": "/api/subclasses/land"
 			}
 		],
-		"url": "/api/spells/web"
+		"url": "/api/spells/web",
+		"id": 312
 	},
 	{
 		"higher_level": [],
@@ -16902,7 +17215,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/weird"
+		"url": "/api/spells/weird",
+		"id": 313
 	},
 	{
 		"higher_level": [],
@@ -16937,7 +17251,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/wind-walk"
+		"url": "/api/spells/wind-walk",
+		"id": 314
 	},
 	{
 		"higher_level": [],
@@ -17006,7 +17321,8 @@
 				"url": "/api/subclasses/lore"
 			}
 		],
-		"url": "/api/spells/wind-wall"
+		"url": "/api/spells/wind-wall",
+		"id": 315
 	},
 	{
 		"higher_level": [],
@@ -17021,7 +17337,7 @@
 			"- You grant up to ten creatures that you can see resistance to a damage type you choose.",
 			"- You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. For instance, you could make yourself and all your companions immune to a lich's life drain attack.",
 			"- You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a wish spell could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll.",
-			"You might be able to achieve something beyond the scope of the above examples. State your wish to the GM as precisely as possible. The GM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary magic item or artifact might instantly transport you to the presence of the item's current owner.",
+			"You might be able to achieve something beyond the scope of the above examples. State your wish to the GM as precisely as possible. The GM has great latitude in ruling what occurs in such an instance the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary magic item or artifact might instantly transport you to the presence of the item's current owner.",
 			"The stress of casting this spell to produce any effect other than duplicating another spell weakens you. After enduring that stress, each time you cast a spell until you finish a long rest, you take 1d10 necrotic damage per level of that spell. This damage can't be reduced or prevented in any way. In addition, your Strength drops to 3, if it isn't 3 or lower already, for 2d4 days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Finally, there is a 33 percent chance that you are unable to cast wish ever again if you suffer this stress."
 		],
 		"range": "Self",
@@ -17051,7 +17367,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/wish"
+		"url": "/api/spells/wish",
+		"id": 316
 	},
 	{
 		"higher_level": [],
@@ -17087,7 +17404,8 @@
 			}
 		],
 		"subclasses": [],
-		"url": "/api/spells/word-of-recall"
+		"url": "/api/spells/word-of-recall",
+		"id": 317
 	},
 	{
 		"higher_level": [],
@@ -17145,6 +17463,7 @@
 				"url": "/api/subclasses/devotion"
 			}
 		],
-		"url": "/api/spells/zone-of-truth"
+		"url": "/api/spells/zone-of-truth",
+		"id": 318
 	}
 ]

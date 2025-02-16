@@ -1,5 +1,12 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+/versions
+stargazer-works-key.keystore
+my-release-key.keystore
+.easignore
+android/
+~/target/output/path
+
 # dependencies
 node_modules/
 

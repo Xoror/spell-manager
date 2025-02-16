@@ -1,0 +1,111 @@
+[
+	{
+		"name": "Astral Adventurer's Guide",
+		"id": "AAG",
+		"source": "AAG",
+		"group": "supplement"
+	},
+	{
+		"name": "Acquisitions Incorporated",
+		"id": "AI",
+		"source": "AI",
+		"group": "supplement"
+	},
+	{
+		"name": "Adventures in the Forgotten Realms: A Verdant Tomb",
+		"id": "AitFR-AVT",
+		"source": "AitFR-AVT",
+		"group": "supplement-alt",
+		"parentSource": "AitFR"
+	},
+	{
+		"name": "The Book of Many Things",
+		"id": "BMT",
+		"source": "BMT",
+		"group": "supplement"
+	},
+	{
+		"name": "Dungeons of Drakkenheim",
+		"id": "DoDk",
+		"source": "DoDk",
+		"group": "supplement-alt"
+	},
+	{
+		"name": "Explorer's Guide to Wildemount",
+		"id": "EGW",
+		"source": "EGW",
+		"group": "setting"
+	},
+	{
+		"name": "Fizban's Treasury of Dragons",
+		"id": "FTD",
+		"source": "FTD",
+		"group": "supplement"
+	},
+	{
+		"name": "Guildmasters' Guide to Ravnica",
+		"id": "GGR",
+		"source": "GGR",
+		"group": "setting"
+	},
+	{
+		"name": "Grim Hollow: Lairs of Etharis",
+		"id": "GHLoE",
+		"source": "GHLoE",
+		"group": "supplement-alt"
+	},
+	{
+		"name": "Icewind Dale: Rime of the Frostmaiden",
+		"id": "IDRotF",
+		"source": "IDRotF",
+		"group": "supplement"
+	},
+	{
+		"name": "Lost Laboratory of Kwalish",
+		"id": "LLK",
+		"source": "LLK",
+		"group": "supplement-alt"
+	},
+	{
+		"name": "Player's Handbook (2014)",
+		"id": "PHB",
+		"source": "PHB",
+		"group": "core"
+	},
+	{
+		"name": "Sigil and the Outlands",
+		"id": "SatO",
+		"source": "SatO",
+		"group": "supplement"
+	},
+	{
+		"name": "Strixhaven: A Curriculum of Chaos",
+		"id": "SCC",
+		"source": "SCC",
+		"group": "setting"
+	},
+	{
+		"name": "Tasha's Cauldron of Everything",
+		"id": "TCE",
+		"source": "TCE",
+		"group": "supplement"
+	},
+	{
+		"name": "Tal'Dorei Campaign Setting Reborn",
+		"id": "TDCSR",
+		"source": "TDCSR",
+		"group": "setting"
+	},
+	{
+		"name": "Xanathar's Guide to Everything",
+		"id": "XGE",
+		"source": "XGE",
+		"group": "supplement"
+	},
+	{
+		"name": "Player's Handbook (2024)",
+		"id": "XPHB",
+		"source": "XPHB",
+		"group": "core"
+	}
+]

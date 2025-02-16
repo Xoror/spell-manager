@@ -1,7 +1,7 @@
 {
   "expo": {
-    "backgroundColor": "#000000",
-    "name": "spell-manager",
+    "backgroundColor": "#151718",
+    "name": "5e Spell Manager",
     "slug": "spell-manager",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,39 +10,52 @@
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+        "supportsTablet": true
     },
     "androidStatusBar": {
-      //"barStyle": "light-content",
-      //"backgroundColor": "#3a81fd",
-      "hidden": false,
-      "translucent": false
+        "hidden": true,
+        "translucent": false,
+        "light": {
+            "backgroundColor": "#151718"
+        },
+        "dark": {
+            "backgroundColor": "#c8c0be"
+        }
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "adaptiveIcon": {
+            "foregroundImage": "./assets/images/adaptive-icon.png",
+            "backgroundColor": "#1d1715"
+      },
+        "package": "com.anonymous.spellmanager"
     },
     "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+        "bundler": "metro",
+        "output": "static",
+        "favicon": "./assets/images/icon.png"
     },
     "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ]
+        "expo-router",
+        [
+            "expo-splash-screen",
+            {
+                "image": "./assets/images/splash-icon.png",
+                "imageWidth": 200,
+                "resizeMode": "contain",
+                "backgroundColor": "#1d1715"
+            }
+        ]
     ],
     "experiments": {
-      "typedRoutes": true
+        "typedRoutes": true
+    },
+    "extra": {
+        "router": {
+            "origin": false
+        },
+        "eas": {
+            "projectId": "3a8a24d5-2dc8-4fbf-9ca4-995b2d9c7dd1"
+        }
     }
   }
 }

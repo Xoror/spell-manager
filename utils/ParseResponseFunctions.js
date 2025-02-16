@@ -77,61 +77,61 @@ export const parseItemAPIResponse = (item, id, header, selectedContainer = "", a
             temp["category"] = "Other"
         }
         else if(item.equipment_category.index === "weapon") {
-            temp["category"] = item.weapon_category + " " + item.weapon_range + " Weapon";
+            temp["category"] = item.weapon_category + " " + item.weapon_range + " Weapon"
         }
         else if(item.equipment_category.index === "armor") {
-            temp["category"] = item.armor_category === "Shield" ? "Shield" : item.armor_category + " Armor";
+            temp["category"] = item.armor_category === "Shield" ? "Shield" : item.armor_category + " Armor"
         }
 
         else if(item.equipment_category.index === "mounts-and-vehicles") {
             if(item.vehicle_category === "mounts-and-other-animals") {
-                temp["category"] = "Vehicle (Land)";
+                temp["category"] = "Vehicle (Land)"
             }
             else if(item.vehicle_category === "Waterborne Vehicles") {
-                temp["category"] = "Vehicle (Water)";
+                temp["category"] = "Vehicle (Water)"
             }
             else {
-                temp["category"] = "Vehicle (Land)";
+                temp["category"] = "Vehicle (Land)"
             }
           }
 
         else if(item.equipment_category.index === "mounts-and-other-animals") {
-            temp["category"] = "Other";
+            temp["category"] = "Other"
         }
         else if(item.equipment_category.index === "other-tools") {
-            temp["category"] = "Other";
+            temp["category"] = "Other"
         }
         else if(item.equipment_category.index === "shields") {
-            temp["category"] = "Shield";
+            temp["category"] = "Shield"
         }
         else if(item.equipment_category.index === "tools") {
             if(item.tool_category === "Gaming Sets") {
-                temp["category"] = "Gaming Set";
+                temp["category"] = "Gaming Set"
             }
             else if(item.tool_category === "Musical Instrument") {
-                temp["category"] = "Instrument";
+                temp["category"] = "Instrument"
             }
             else if(item.tool_category === "Artisan's Tools") {
-                temp["category"] = "Artisan's Tools";
+                temp["category"] = "Artisan's Tools"
             }
             else {
-                temp["category"] = item.tool_category;
+                temp["category"] = item.tool_category
             }
           }
         else {
             temp["category"] = item.equipment_category.name
         }
         if(item.gear_category != undefined ? item.gear_category.name === "Ammunition" : false) {
-            temp["category"] = "Ammunition";
+            temp["category"] = "Ammunition"
         }
         if(item.gear_category != undefined ? item.gear_category.name === "Arcane Foci" : false) {
-            temp["category"] = "Arcane Focus";
+            temp["category"] = "Arcane Focus"
         }
         if(item.gear_category != undefined ? item.gear_category.name === "Druidic Foci" : false) {
-            temp["category"] = "Druidic Focus";
+            temp["category"] = "Druidic Focus"
         }
         if(item.gear_category != undefined ? item.gear_category.name === "Holy Symbols" : false) {
-            temp["category"] = "Holy Symbol";
+            temp["category"] = "Holy Symbol"
         }
     }
     else if (header === "Wondrous Items") {

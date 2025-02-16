@@ -1,12 +1,12 @@
-import { useReducer } from 'react';
-import { StyleSheet, Pressable, View } from 'react-native';
-import { MotiView } from 'moti';
-import { Skeleton } from 'moti/skeleton';
+import { useReducer } from 'react'
+import { StyleSheet, Pressable, View } from 'react-native'
+import { MotiView } from 'moti'
+import { Skeleton } from 'moti/skeleton'
 
 export default function SpellCardSkeleton() {
-  const [dark, toggle] = useReducer((s) => !s, true);
+  const [dark, toggle] = useReducer((s) => !s, true)
 
-  const colorMode = "dark"// dark ? 'dark' : 'light';
+  const colorMode = "dark"// dark ? 'dark' : 'light'
 
   return (
     <Pressable onPress={toggle} style={styles.container}>
@@ -26,10 +26,10 @@ export default function SpellCardSkeleton() {
         <Skeleton colorMode={colorMode} width={'100%'} />
       </MotiView>
     </Pressable>
-  );
+  )
 }
 
-const Spacer = ({ height = 16 }) => <View style={{ height }} />;
+const Spacer = ({ height = 16 }) => <View style={{ height }} />
 
 const styles = StyleSheet.create({
   shape: {
@@ -47,4 +47,4 @@ const styles = StyleSheet.create({
   padded: {
     padding: 16,
   },
-});
+})

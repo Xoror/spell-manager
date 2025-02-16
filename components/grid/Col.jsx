@@ -1,6 +1,6 @@
 
-import { StyleSheet } from "react-native";
-import { ThemedView as View } from "../ThemedView";
+import { StyleSheet } from "react-native"
+import ThemedView from "../basic/ThemedView"
 
 const styles = StyleSheet.create({
     col: {
@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
 const Col = ({children, style, cols="auto", ...restProps}) => {
     const numCols = cols ? {flex: cols} : {}
     return (
-        <View style={{...style, ...styles.col, ...numCols}} {...restProps}>{children}</View>
+        <ThemedView style={{...style, ...styles.col, ...numCols}} {...restProps}>{children}</ThemedView>
     )
 }
 

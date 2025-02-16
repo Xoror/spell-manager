@@ -1,0 +1,116 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" height="1024" viewBox="0 0 256 256" width="1024" 
+    stroke="#c60e00" fill="#c60e00"
+>
+    <circle stroke="transparent" fill="transparent" cx="50%" cy="50%" r="50%"/>
+    <g transform="scale(1)">
+        <path y="960" fill="#e8eaed" d="M560-564v-68q33-14 67.5-21t72.5-7q26 0 51 4t49 10v64q-24-9-48.5-13.5T700-600q-38 0-73 9.5T560-564Zm0 220v-68q33-14 67.5-21t72.5-7q26 0 51 4t49 10v64q-24-9-48.5-13.5T700-380q-38 0-73 9t-67 27Zm0-110v-68q33-14 67.5-21t72.5-7q26 0 51 4t49 10v64q-24-9-48.5-13.5T700-490q-38 0-73 9.5T560-454ZM260-320q47 0 91.5 10.5T440-278v-394q-41-24-87-36t-93-12q-36 0-71.5 7T120-692v396q35-12 69.5-18t70.5-6Zm260 42q44-21 88.5-31.5T700-320q36 0 70.5 6t69.5 18v-396q-33-14-68.5-21t-71.5-7q-47 0-93 12t-87 36v394Zm-40 118q-48-38-104-59t-116-21q-42 0-82.5 11T100-198q-21 11-40.5-1T40-234v-482q0-11 5.5-21T62-752q46-24 96-36t102-12q58 0 113.5 15T480-740q51-30 106.5-45T700-800q52 0 102 12t96 36q11 5 16.5 15t5.5 21v482q0 23-19.5 35t-40.5 1q-37-20-77.5-31T700-240q-60 0-116 21t-104 59ZM280-494Z"/>
+        <path 
+            d=" M 128 200 
+                C 120 192, 72 182, 48 190 
+                L 48 66 
+                C 72 56, 120 66, 128 74 
+                C 136 64, 184 56, 208 66
+                L 208 190
+                C 184 182, 136 192, 128 200
+                L 128 74
+                Z" 
+            stroke-width="10" fill="transparent" stroke-linejoin ="round"
+        />
+        <path 
+            d=" M 144 90
+                C 158 82, 178 82, 192 84
+                " 
+            stroke-width="10"   stroke-linecap ="round"
+        />
+        <path 
+            d=" M 144 110
+                C 158 102, 178 102, 192 104
+                " 
+            stroke-width="10"   stroke-linecap ="round"
+        />
+        <path
+            d=" M 144 130
+                C 158 122, 178 122, 192 124
+                " 
+            stroke-width="10"   stroke-linecap ="round"
+        />
+        <path  name="wand"
+            d=" M 168 166 L 88 126" 
+            stroke-width="7"   stroke-linecap ="round"
+        />
+        <path  name="wand"
+            d=" M 176 170 L 148 156" 
+            stroke-width="12"   stroke-linecap ="round"
+        />
+        
+        <path transform="translate(64, 90), scale(0.08)"
+            d="
+                M 128 16 
+                C 128 80, 80 128, 16 128 
+                C 80 128, 128 172, 128 240
+                C 128 172, 172 128, 240 128
+                C 172 128, 128 80, 128 16
+                Z
+            " 
+            stroke-width="25" stroke-linejoin ="round"
+        />
+        <path transform="translate(90, 150), scale(0.08)"
+            d="
+                M 128 16 
+                C 128 80, 80 128, 16 128 
+                C 80 128, 128 172, 128 240
+                C 128 172, 172 128, 240 128
+                C 172 128, 128 80, 128 16
+                Z
+            " 
+            stroke-width="25" stroke-linejoin ="round"
+        />
+        <path transform="translate(58, 140), scale(0.08)"
+            d="
+                M 128 16 
+                C 128 80, 80 128, 16 128 
+                C 80 128, 128 172, 128 240
+                C 128 172, 172 128, 240 128
+                C 172 128, 128 80, 128 16
+                Z
+            " 
+            stroke-width="25" stroke-linejoin ="round"
+        />
+        <path transform="translate(100, 100), scale(0.08)"
+            d="
+                M 128 16 
+                C 128 80, 80 128, 16 128 
+                C 80 128, 128 172, 128 240
+                C 128 172, 172 128, 240 128
+                C 172 128, 128 80, 128 16
+                Z
+            " 
+            stroke-width="25" stroke-linejoin ="round"
+        />
+        <g transform="translate(88, 126), scale(0.2)">
+            <path transform="translate(0, -124), scale(0.7), rotate(45)"
+                d="
+                    M 128 16 
+                    C 128 104, 104 128, 16 128 
+                    C 104 128, 128 154, 128 240
+                    C 128 154, 154 128, 240 128
+                    C 154 128, 128 104, 128 16
+                    Z
+                " 
+                stroke-width="10" stroke-linejoin ="round"
+            />
+            <path transform="translate(-124, -124), scale(1)"
+                d="
+                    M 128 16 
+                    C 128 114, 114 128, 16 128 
+                    C 114 128, 128 142, 128 240
+                    C 128 142, 142 128, 240 128
+                    C 142 128, 128 114, 128 16
+                    Z
+                " 
+                stroke-width="8" stroke-linejoin ="round"
+            />
+        </g>
+    </g>
+</svg>
