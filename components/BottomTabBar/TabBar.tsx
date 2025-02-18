@@ -28,7 +28,7 @@ const TabBar = ({ state, descriptors, navigation }) => {
                     onPress={() => {drawerNavigation.openDrawer()}}
                     style={{ opacity: 1, flex:1, alignItems:"center", justifyContent:"center" }}
                 >
-                    <Icon size={24} name="person" color={tabBarInActiveColor} style={{padding:0}} />
+                    <Icon size={24} name="settings" color={tabBarInActiveColor} style={{padding:0}} />
                     <ThemedText style={[{  color: tabBarInActiveColor, fontSize:12 },]}>
                         Menu
                     </ThemedText>

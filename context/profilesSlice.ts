@@ -49,7 +49,28 @@ const characterTemplate = ({name, slots={}}:CharacterTemplateProps) : Character 
 const initialState:ProfilesState = {
     source:"dnd",
     activeCharacter: "none",
-    characters: [],
+    characters: [
+        { id: "1", name: "1", spells: [], slots: [] },
+        { id: "2", name: "2", spells: [], slots: [] },
+        { id: "3", name: "3", spells: [], slots: [] },
+        { id: "4", name: "4", spells: [], slots: [] },
+        { id: "5", name: "5", spells: [], slots: [] },
+        { id: "6", name: "6", spells: [], slots: [] },
+        { id: "7", name: "7", spells: [], slots: [] },
+        { id: "8", name: "8", spells: [], slots: [] },
+        { id: "9", name: "9", spells: [], slots: [] },
+        { id: "10", name: "10", spells: [], slots: [] },
+        { id: "11", name: "11", spells: [], slots: [] },
+        { id: "12", name: "12", spells: [], slots: [] },
+        { id: "13", name: "13", spells: [], slots: [] },
+        { id: "14", name: "14", spells: [], slots: [] },
+        { id: "15", name: "15", spells: [], slots: [] },
+        { id: "16", name: "16", spells: [], slots: [] },
+        { id: "17", name: "17", spells: [], slots: [] },
+        { id: "18", name: "18", spells: [], slots: [] },
+        { id: "19", name: "19", spells: [], slots: [] },
+        { id: "20", name: "20", spells: [], slots: [] },
+    ],
     defaultSources: []
 }
 
@@ -71,6 +92,12 @@ export const ProfilesSlice = createSlice({
             state.characters.push(newCharacter)
             state.activeCharacter = newCharacter.id
         },
+        editCharacter(state, action) {
+            const {id, name} = action.payload
+            const character = state.characters.find(character => character.id === id)
+            if(!character) return
+            character.name = name === "" ? "Don't enter no name ;)" : name
+        },
         deleteCharacter(state, action: PayloadAction<{id:string}>) {
             const {id} = action.payload
             state.characters = state.characters.filter(character => character.id != id)
@@ -85,7 +112,9 @@ export const ProfilesSlice = createSlice({
         addSpell(state, action) {
             const { id, spell } = action.payload
             const character = state.characters.find(character => character.id === id)
-            if(!character) return
+            const hasSpell = character.spells.find(spellInt => spellInt.id === spell.id)
+            
+            if(!character || hasSpell) return
 
             character.spells.push(spell)
             character.spells.sort((a,b) => sortAlphabetically(a.name,b.name))

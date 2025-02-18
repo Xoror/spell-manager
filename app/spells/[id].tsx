@@ -4,9 +4,10 @@ import { useLocalSearchParams, Stack } from "expo-router"
 
 import ThemedView from "@/components/basic/ThemedView"
 import {SpellCard} from "@/components/spells/SpellCard"
-import SpellCardSkeleton from "@/components/skeletons/SpellCardSkeleton"
+import SpellCardPathfinder from "@/components/spells/SpellCardPathfinder"
 
 import spells from "../../constants/spellsSRD.json"
+import spellsPathfinder from "@/constants/pathfinder-spells/tier-1.json"
 import { parseSpellAPIResponse } from "../../utils/ParseResponseFunctions"
 import { useHeaderHeight } from '@react-navigation/elements'
 
@@ -27,8 +28,11 @@ const SpellById = () => {
 
     return (
         <ThemedView style={{...styles.screen}}>
-            {false?
-                <SpellCardSkeleton />
+            {true?
+                <SpellCardPathfinder 
+                    style={{height: windowHeight - headerHeight}}
+                    data={spellsPathfinder.map(spell => spell._source).find(spell => spell.id.toString() === id)} 
+                />
                 :
                 <SpellCard 
                     style={{height: windowHeight - headerHeight}}

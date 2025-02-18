@@ -1,6 +1,7 @@
 import { useState, useEffect, useLayoutEffect, useRef } from 'react'
 import { StyleSheet, TouchableOpacity, Pressable } from 'react-native'
 
+
 import ThemedView from '../basic/ThemedView'
 
 const styles = StyleSheet.create({
@@ -65,6 +66,22 @@ const Collapsible = ({ title, data, renderTitle, renderList ,isOpen, setIsOpen, 
     )
 }
 export default Collapsible
+/*
+<TouchableOpacity
+    onPress={handlePress}
+    activeOpacity={0.8}                
+>
+    {renderTitle({title, data, isVisible: isOpenInternal})}
+</TouchableOpacity>
+{(isOpenInternal) ? 
+    <ThemedView style={styles.content}>
+        {data.map( spell =>  {
+            //console.log(spell.index)
+            return renderList({title, spell})
+        })}
+    </ThemedView> : null
+}
+*/
 /*
 <Animated.View
     ref={containerRef}

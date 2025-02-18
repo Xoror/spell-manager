@@ -8,7 +8,7 @@ import useThemeColor from '@/hooks/useThemeColor'
 
 
 
-const Button = ({children, style, ...restProps}:ThemedTextProps) => {
+const Button = ({children, style, small, ...restProps}:(ThemedTextProps & {small?:boolean})) => {
     const color = useThemeColor( {preset:"text"})
     const bg = useThemeColor({preset:"red-accent"})
     return (
@@ -18,7 +18,7 @@ const Button = ({children, style, ...restProps}:ThemedTextProps) => {
                 {backgroundColor: bg, fontWeight:600},
                 style
             ]} 
-            type="button" {...restProps}
+            type={small ? "smallButton":"button"} {...restProps}
         >
             {children}
         </ThemedText>

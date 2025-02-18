@@ -1,4 +1,4 @@
-import { GestureResponderEvent, StyleProp, TextProps, TextStyle, TouchableOpacity, ViewProps, ViewStyle } from "react-native"
+import { GestureResponderEvent, StyleProp, TextProps, TextStyle, TouchableOpacity, ViewProps, ViewStyle, Pressable } from "react-native"
 import ThemedView from "../basic/ThemedView"
 import ThemedText from "../basic/ThemedText"
 import Icon from "../icons/Icon"
@@ -22,7 +22,7 @@ const CollapsibleItem = ({spell, isAdding, containerStyle, iconStyle, onIconPres
     const collapseListItemIconBorderColor = useThemeColor({preset:"red-gray-6"})
     return(
         <ThemedView key={spell.id} style={[{borderColor:collapseListItemIconBorderColor, borderBottomWidth:1}, containerStyle]}>
-            <TouchableOpacity onPress={onIconPress}>
+            <Pressable onPress={onIconPress}>
                 {isAdding ? 
                     <Icon 
                         style={[iconStyle, {backgroundColor:collapseListItemIconBgColor}]} 
@@ -33,10 +33,10 @@ const CollapsibleItem = ({spell, isAdding, containerStyle, iconStyle, onIconPres
                         name="remove" size={18} 
                     />
                 }
-            </TouchableOpacity>
+            </Pressable>
             <ListLink key={spell.id} href={{
                     pathname: '/spells/[id]',
-                    params: { id: spell.id, name: spell.name }
+                    params: { id: spell.id, name: spell.name, category:(spell as any).category }
                 }}
             >
                 <ThemedText type="link">{spell.name}</ThemedText>

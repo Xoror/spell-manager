@@ -58,7 +58,7 @@ const initializeStore = async () => {
     const initialState = await loadFromAsyncStorage()
     if(initialState) store.dispatch(initialImport(initialState))
 }
-initializeStore()
+//initializeStore()
 
 const StoreProvider = ({ children }: { children: ReactNode }) => {
     
@@ -66,7 +66,7 @@ const StoreProvider = ({ children }: { children: ReactNode }) => {
 		// we use debounce to save the state once each 800ms
 		// for better performances in case multiple changes occur in a short time
 		debounce(() => {
-            saveState(store.getState())
+            //saveState(store.getState())
 		}, 800)
 	)
     

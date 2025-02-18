@@ -1,6 +1,7 @@
 import { ScrollView, View, type ViewProps, type ScrollViewProps, Animated } from 'react-native'
 
 import useThemeColor from '@/hooks/useThemeColor'
+import { forwardRef } from 'react'
 
 export type ThemedViewProps = (ViewProps | ScrollViewProps) & {
     lightColor?: string,
@@ -8,13 +9,13 @@ export type ThemedViewProps = (ViewProps | ScrollViewProps) & {
     scroll?: boolean,
 }
 
-const ThemedView =({ style, lightColor, darkColor, scroll=false, ...otherProps }: ThemedViewProps) => {
+const ThemedView = forwardRef<any, ThemedViewProps>( ({ style, lightColor, darkColor, scroll=false, ...otherProps }, ref) => {
     const backgroundColor = useThemeColor({ lightColor, darkColor, preset:'background'})
 
     const Component = scroll ? Animated.ScrollView : Animated.View
     return (
-        <Component style={[{ backgroundColor }, style]} {...otherProps} />
+        <Component ref={ref} style={[{ backgroundColor }, style]} {...otherProps} />
     )
-}
+})
 
 export default ThemedView

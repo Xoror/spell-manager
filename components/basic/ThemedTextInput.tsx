@@ -1,3 +1,4 @@
+import { forwardRef } from 'react'
 import { TextInput, type TextInputProps, StyleSheet } from 'react-native'
 import { FieldError } from 'react-hook-form'
 
@@ -11,13 +12,13 @@ export type ThemedTextInputProps = TextInputProps & {
     error?: FieldError
 }
 
-export function ThemedTextInput({
+export const ThemedTextInput = forwardRef<any, ThemedTextInputProps> (({
     style,
     lightColor,
     darkColor,
     error,
     ...restProps
-}: ThemedTextInputProps) {
+}: ThemedTextInputProps, ref) => {
     const color = useThemeColor({preset:'red-black'})
     const bg = useThemeColor({preset:'red-gray-3'})
     const placeholderColor = useThemeColor({preset:'red-gray-6'})
@@ -29,6 +30,7 @@ export function ThemedTextInput({
     return (
         <ThemedView style={{flexDirection:"column", rowGap:4, justifyContent:"space-around"}}>
             <TextInput
+                ref={ref}
                 style={[
                     {...styles.input},
                     { color },
@@ -48,7 +50,7 @@ export function ThemedTextInput({
             }
         </ThemedView>
     )
-}
+})
 
 const styles = StyleSheet.create({
     input: {
@@ -60,7 +62,7 @@ const styles = StyleSheet.create({
         //flexGrow: 0,
         lineHeight: 18,
         height:"auto",
-        marginBlock:"auto"
+        marginBlock:"auto",
         //height:42
     }
 })

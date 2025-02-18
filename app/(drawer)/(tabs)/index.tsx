@@ -77,7 +77,6 @@ const CharacterManager = () => {
                             data={characters} value={(activeCharacter as Character).id} 
                             labelField="name" valueField="id" onChange={handleSelect}
                         />
-
                     </>
                 }
                 <ListLink href={{ pathname: '/characters/add' }} >

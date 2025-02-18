@@ -143,13 +143,21 @@ export default function RootLayout() {
                                     animation: "slide_from_right",
                                     gestureEnabled: true,
                                     cardStyleInterpolator: forSlide,
-                                    title: route.params ? (route.params as any)["name"] : "Title could not be fetched",
+                                    title: route.params ? (route.params as any)["name"]+" ("+(route.params as any)["category"]+")" : "Title could not be fetched",
                                 }
                             }}
                         />
                         <Stack.Screen name="characters/add" 
                             options={{ 
                                 title:"",
+                                headerShown: true ,
+                                animation: "slide_from_right",
+                                gestureEnabled: true
+                            }} 
+                        />
+                        <Stack.Screen name="characters/manage" 
+                            options={{ 
+                                title:"Manage Characters",
                                 headerShown: true ,
                                 animation: "slide_from_right",
                                 gestureEnabled: true

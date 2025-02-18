@@ -5,7 +5,7 @@ import useThemeColor from '@/hooks/useThemeColor'
 export type ThemedTextProps = TextProps & {
     lightColor?: string
     darkColor?: string
-    type?: 'default' | 'title' | 'defaultSemiBold' | 'subtitle' | 'link' | "listLink" | "button"
+    type?: 'default' | 'title' | 'defaultSemiBold' | 'subtitle' | 'link' | "listLink" | "button" | "smallButton"
     centered?: boolean
 }
 
@@ -61,5 +61,10 @@ const styles = StyleSheet.create({
         fontSize: baseFontSize,
         paddingInline: baseFontSize,
         paddingBlock: 0.5*baseFontSize,
+    },
+    smallButton: {
+        fontSize: 0.85*baseFontSize,
+        paddingInline: 0.75*baseFontSize,
+        paddingBlock: 0.25*baseFontSize,
     }
 })

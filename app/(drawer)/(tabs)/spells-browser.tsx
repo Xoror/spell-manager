@@ -1,8 +1,8 @@
-import React, { useMemo, useState } from "react"
-import { StyleSheet, TouchableOpacity } from "react-native"
+import React, { useCallback, useMemo, useState } from "react"
+import { FlatList, StyleSheet, TouchableOpacity, Pressable } from "react-native"
 
 import useProfilesSlice from "@/context/useProfilesSlice"
-import { type SpellType } from "@/context/profilesSlice"
+import { type SpellType as SpellTypeSRD } from "@/context/profilesSlice"
 
 import Button from "@/components/basic/Button"
 import ThemedText  from "@/components/basic/ThemedText"
@@ -13,11 +13,23 @@ import { ThemedTextInput } from "@/components/basic/ThemedTextInput"
 import FilterTiers from "../../(modals)/filter-tiers"
 
 import spellsSRD from "@/constants/spellsSRD.json"
-import { tiers } from "@/constants/SpellDetails"
+import spellsPf from "@/constants/pathfinder-spells/tier-1.json"
+import { tiers, classes, schools } from "@/constants/SpellDetails"
 import useThemeColor from "@/hooks/useThemeColor"
 import { debounce } from "lodash"
 
 import { FiltersType, initialFilter, filter } from "@/utils/FilterFunctions"
+import Accordion from 'react-native-collapsible/Accordion';
+
+const initialF = {
+    classes: new Set(classes),
+    schools: new Set(schools),
+    tiers: new Set(tiers),
+    isRitual: true,
+    isNotRitual: true,
+    isConcentration: true,
+    isNotConcentration: true
+}
 
 const styles = StyleSheet.create({
     collapseHeader: {
@@ -51,12 +63,14 @@ const styles = StyleSheet.create({
         paddingInline: 6,
     }
 })
+const spell = spellsPf[0]["_source"]
+type SpellType = SpellTypeSRD | typeof spell
 
 const SpellBrowser = ({spellList}:{spellList?:Array<SpellType>}) => {    
     const { activeCharacter, addSpell, deleteSpell, source } = useProfilesSlice()
     const [isOpen, setIsOpen] = useState(new Set([]))
     const [searchInput, setSearchInput] = useState("")
-    const [filters, setFilters] = useState<FiltersType>(() =>initialFilter())
+    const [filters, setFilters] = useState<FiltersType>(initialF)
     const [openModal, setOpenModal] = useState("none")
 
 
@@ -65,7 +79,7 @@ const SpellBrowser = ({spellList}:{spellList?:Array<SpellType>}) => {
         //setForceRerender(activeCharacter.spells.length)
     }
 
-    const spells = spellList ?? spellsSRD
+    const spells = spellList ?? spellsPf.map(spell => spell["_source"])
     const isAdding = spellList ? false : true
 
     const handleModifySpell = (spell: SpellType) => {
@@ -102,19 +116,33 @@ const SpellBrowser = ({spellList}:{spellList?:Array<SpellType>}) => {
         return !activeCharacter.spells.find(spellKnown => spellKnown.id === spell.id)
     }
 
-    const spellsFiltered = useMemo(() => tiers.map(tier => {
-        let isFilteredValue = false
-        return (
-            {
-                title: "Tier "+tier, 
-                data:spells.filter(spell => {
-                    isFilteredValue = filter(spell, searchInput, filters, source)
-                    if(!isKnown(spell)) //console.log("test")
-                    return spell.level === tier && !isKnown(spell) && isFilteredValue
-                }),
-            }
-        )
-    }), [activeCharacter, searchInput, filters])
+    const spellsFiltered = useMemo(() => {
+        console.log("filtering")
+        return tiers.map(tier => {
+            let isFilteredValue = false
+            return (
+                {
+                    title: "Tier "+tier, 
+                    data:spells.filter(spell => {
+                        isFilteredValue = true// filter(spell, searchInput, filters, source)
+                        if(!isKnown(spell)) //console.log("test")
+                        return spell.level === tier && !isKnown(spell) && isFilteredValue
+                    }),
+                }
+            )
+        })
+    }, [activeCharacter, searchInput, filters])
+    const renderSpellList = useMemo(() => {
+        return spellsFiltered.map(tier => {
+            return {title:tier.title, data:tier.data.map(spell => 
+                <CollapsibleItem 
+                    key={spell.id} isAdding={isAdding}
+                    spell={spell as any} containerStyle={styles.listItem} 
+                    onIconPress={() => handleModifySpell(spell)}
+                />
+            )}
+        })
+    }, [])
     
     return (
         <>
@@ -129,13 +157,34 @@ const SpellBrowser = ({spellList}:{spellList?:Array<SpellType>}) => {
                         </Button>
                     </TouchableOpacity>
                 </Header>
-                <ThemedView scroll={true}>
-                    {spellsFiltered.map(({title, data}, index) => 
+                < >
+                    {true ? 
+                        <Accordion
+                            activeSections={Array.from(isOpen)} touchableComponent={Pressable}
+                            initialNumToRender={10} maxToRenderPerBatch={15}
+                            sections={spellsFiltered.map(spells => ({title:spells.title, content:spells.data}))}
+                            renderHeader={(section) => {
+                                if(!isAdding && section.content.length === 0) return
+                                return (
+                                    <CollapsibleHeader isVisible={true} containerStyle={styles.collapseHeader} >
+                                        {(section.title === "Tier 0" ? "Cantrips":section.title)+" ("+section.content.length+")" }
+                                    </CollapsibleHeader>
+                                )
+                            }}
+                            renderContent={ (section) => {
+                                const tier = renderSpellList.find(tier => section.title === tier.title)
+                                return <>{tier.data}</>
+                            }}
+                            onChange={(activeSections) => setIsOpen(new Set(activeSections))}
+                            renderAsFlatList={true}
+                        /> : null
+                    }
+                    {false ? spellsFiltered.map(({title, data}, index) => 
                         <Collapsible
                             isOpen={isOpen} setIsOpen={setIsOpen}
                             index={index} key={title}
                             data={data} title={title}
-                            renderList={ ({title, spell}) => {
+                            renderList={ ({spell}) => {
                                 return (
                                     <CollapsibleItem 
                                         key={spell.id} isAdding={isAdding}
@@ -153,8 +202,9 @@ const SpellBrowser = ({spellList}:{spellList?:Array<SpellType>}) => {
                                 )
                             }}
                         />
-                    )}
-                </ThemedView>
+                    ):
+                    null}
+                </>
             </ThemedView>
         </>
     )

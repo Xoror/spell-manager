@@ -1,5 +1,5 @@
 
-import { GestureResponderEvent, Platform, TouchableOpacity, type TouchableOpacityProps } from "react-native"
+import { GestureResponderEvent, Platform, TouchableOpacity, type TouchableOpacityProps, Pressable } from "react-native"
 import { Link, type LinkProps } from "expo-router"
 import { openBrowserAsync } from "expo-web-browser"
 import { LinkComponent } from "expo-router/build/link/Link"
@@ -23,9 +23,9 @@ const ListLink = ({children, onPress, href, external, touchableOpacityProps, ...
     }
     return(
         <Link asChild {...props} href={href} target={external ? "_blank" : null} onPress={handlePress} >
-            <TouchableOpacity {...touchableOpacityProps}>
+            <Pressable {...touchableOpacityProps}>
                 {children}
-            </TouchableOpacity>
+            </Pressable>
         </Link>
     )
 }

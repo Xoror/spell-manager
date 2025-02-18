@@ -88,48 +88,48 @@ export const SpellCard = (props) => {
                 <Col>
                     <ThemedText type="defaultSemiBold">
                         Casting Time: 
-                     </ThemedText>
+                    </ThemedText>
                 </Col>
                 <Col md="auto">
                     <ThemedText>
                         {data.castingTime}{data.ritual ? " or Ritual": ""}
-                     </ThemedText>
+                    </ThemedText>
                 </Col>
             </Row>
             <Row style={styles.row}>
                 <Col>
                     <ThemedText type="defaultSemiBold">
                         Range: 
-                     </ThemedText>
+                    </ThemedText>
                 </Col>
                 <Col md="auto">
                     <ThemedText>
                         {data.range}
-                     </ThemedText>
+                    </ThemedText>
                 </Col>
             </Row>
             <Row style={styles.row}>
                 <Col>
                     <ThemedText type="defaultSemiBold">
                         Components: 
-                     </ThemedText>
+                    </ThemedText>
                 </Col>
                 <Col md="auto">
                     <ThemedText>
                         {components}
-                     </ThemedText>
+                    </ThemedText>
                 </Col>
             </Row>
             <Row style={styles.row}>
                 <Col>
                     <ThemedText type="defaultSemiBold">
                         Duration:
-                     </ThemedText>
+                    </ThemedText>
                 </Col>
                 <Col md="auto">
                     <ThemedText>
                         {data.duration[0]}{data.duration[1] ? " (Concentration)" : null}
-                     </ThemedText>
+                    </ThemedText>
                 </Col>
             </Row>
             <Row style={{...styles.row, flex: -1}}>
@@ -137,19 +137,19 @@ export const SpellCard = (props) => {
                     {data.description[0].map((desc, index) => (
                         <ThemedText key={`${data.name}-spellcard-description-${index}`} style={{textAlign:"justify"}}>
                             {index === 0 ? <ThemedText type="defaultSemiBold">Description:  </ThemedText>: null}{desc}
-                         </ThemedText>
+                        </ThemedText>
                     ))}
                 </Col>
             </Row>
             <Row style={styles.row}>
                 <ThemedText style={{textAlign:"justify", width:"100%"}}>
                     <ThemedText type="defaultSemiBold">At higher levels: </ThemedText> {data.description[1]}
-                 </ThemedText>
+                </ThemedText>
             </Row>
             <Row style={styles.row}>
                 <ThemedText className="spellcard-footer">{data.type} level {data.school} spell </ThemedText>
             </Row>
-         </ThemedView>
+        </ThemedView>
     )
 }
 
